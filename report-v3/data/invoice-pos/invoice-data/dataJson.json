@@ -1,0 +1,38 @@
+{
+    "id": 109,
+    "receipt_number": 3614448,
+    "cashier_id": 1,
+    "total_price": 13500,
+    "ordered_at": "2024-03-24 16:32:17",
+    "title_of_service": "ប្រព័ន្ធលក់អាហារ - Point of Sale - Tongmeng",
+    "cashier": {
+        "id": 1,
+        "name": "Hai Tongmeng"
+    },
+    "details": [
+        {
+            "id": 329,
+            "order_id": 109,
+            "qty": 1,
+            "product_id": 7,
+            "unit_price": 1500,
+            "product": {
+                "id": 7,
+                "name": "Cheezit",
+                "image": "static/Products/Snack/cheezit.png"
+            }
+        },
+        {
+            "id": 330,
+            "order_id": 109,
+            "qty": 1,
+            "product_id": 8,
+            "unit_price": 12000,
+            "product": {
+                "id": 8,
+                "name": "Snickers",
+                "image": "static/Products/Snack/snickers.png"
+            }
+        }
+    ]
+}

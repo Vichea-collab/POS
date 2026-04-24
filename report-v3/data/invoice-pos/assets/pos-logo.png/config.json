@@ -1,0 +1,14 @@
+{
+    "name": "pos-logo.png",
+    "creationDate": {
+        "$$date": 1775920200000
+    },
+    "modificationDate": {
+        "$$date": 1775920200000
+    },
+    "shortid": "posLogo1",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "posLogoAsset01",
+    "$entitySet": "assets"
+}

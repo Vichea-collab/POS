@@ -1,0 +1,1871 @@
+2023-12-30T03:35:33.275Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 18.17.1)
+2023-12-30T03:35:33.277Z - info: Searching for available extensions in C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\
+2023-12-30T03:35:33.284Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\
+2023-12-30T03:35:33.289Z - info: Found 35 extension(s)
+2023-12-30T03:35:33.346Z - info: Using extension base@4.0.0
+2023-12-30T03:35:33.350Z - info: Using extension child-templates@4.0.0
+2023-12-30T03:35:33.354Z - info: Using extension cli@4.0.2
+2023-12-30T03:35:33.356Z - info: Using extension components@4.0.0
+2023-12-30T03:35:33.357Z - info: Using extension data@4.0.0
+2023-12-30T03:35:33.358Z - info: Using extension express@4.0.1
+2023-12-30T03:35:33.572Z - info: Using extension freeze@4.0.0
+2023-12-30T03:35:33.575Z - info: Using extension fs-store@4.0.1
+2023-12-30T03:35:33.649Z - info: Using extension handlebars@4.0.1
+2023-12-30T03:35:33.651Z - info: Using extension import-export@4.0.2
+2023-12-30T03:35:33.661Z - info: Using extension jsrender@4.0.0
+2023-12-30T03:35:33.662Z - info: Using extension licensing@4.0.1
+2023-12-30T03:35:33.667Z - info: Using extension localization@4.0.1
+2023-12-30T03:35:33.668Z - info: Using extension npm@4.0.0
+2023-12-30T03:35:33.673Z - info: Using extension pdf-utils@4.0.2
+2023-12-30T03:35:33.676Z - info: Using extension reports@4.0.0
+2023-12-30T03:35:33.680Z - info: Using extension tags@4.0.1
+2023-12-30T03:35:33.682Z - info: Using extension text@4.0.0
+2023-12-30T03:35:33.683Z - info: Using extension version-control@4.0.0
+2023-12-30T03:35:33.698Z - info: Using extension assets@4.0.2
+2023-12-30T03:35:33.706Z - info: Using extension authorization@4.0.0
+2023-12-30T03:35:33.709Z - info: Using extension browser-client@4.0.0
+2023-12-30T03:35:33.711Z - info: Using extension chrome-pdf@4.0.0
+2023-12-30T03:35:33.714Z - info: Using extension docx@4.1.1
+2023-12-30T03:35:33.716Z - info: Using extension html-to-xlsx@4.0.1
+2023-12-30T03:35:33.964Z - info: html-to-xlsx detected chrome as available html engine
+2023-12-30T03:35:33.967Z - info: Using extension pptx@4.1.0
+2023-12-30T03:35:33.969Z - info: Using extension scheduling@4.0.0
+2023-12-30T03:35:33.990Z - info: Using extension scripts@4.0.0
+2023-12-30T03:35:33.991Z - info: Using extension static-pdf@4.0.0
+2023-12-30T03:35:33.991Z - info: Using extension studio@4.0.2
+2023-12-30T03:35:34.041Z - info: Using extension xlsx@4.0.2
+2023-12-30T03:35:34.043Z - info: Using extension public-templates@4.0.0
+2023-12-30T03:35:34.044Z - info: Using extension sample-template@4.0.0
+2023-12-30T03:35:34.045Z - info: Using extension studio-theme-dark@4.0.0
+2023-12-30T03:35:34.047Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-12-30T03:35:34.047Z - info: Using fs provider for template store.
+2023-12-30T03:35:34.051Z - info: fs store is persisting using fs for C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\data
+2023-12-30T03:35:34.059Z - info: fs store is loading data
+2023-12-30T03:35:34.064Z - info: fs store is initialized successfully
+2023-12-30T03:35:34.073Z - info: Creating default express app.
+2023-12-30T03:35:34.089Z - info: jsreport server successfully started on http port: 5488
+2023-12-30T03:35:34.090Z - info: Verifying license key free
+2023-12-30T03:35:34.091Z - info: Using free license
+2023-12-30T03:35:34.124Z - info: Migrating templates chrome settings (waitForNetworkIddle -> waitForNetworkIdle)
+2023-12-30T03:35:34.129Z - info: Migration successful
+2023-12-30T03:35:34.130Z - info: Initializing worker threads
+2023-12-30T03:35:34.913Z - info: 2 worker threads initialized in 783ms
+2023-12-30T03:35:34.914Z - info: Starting temp files cleanup with 180000ms threshold
+2023-12-30T03:35:34.915Z - info: reporter initialized
+2023-12-30T03:38:13.081Z - info: Render request 1 queued for execution and waiting for available worker rootId=l34tm42t110lak9, id=l34tm42t110lak9
+2023-12-30T03:38:13.143Z - info: Starting rendering request 1 rootId=l34tm42t110lak9, id=l34tm42t110lak9
+2023-12-30T03:38:13.143Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=l34tm42t110lak9, id=l34tm42t110lak9
+2023-12-30T03:38:14.887Z - info: Rendering request 1 finished in 1807 ms rootId=l34tm42t110lak9, id=l34tm42t110lak9
+2023-12-30T03:39:10.994Z - info: Render request 2 queued for execution and waiting for available worker rootId=27gvhja7rmcpwzp, id=27gvhja7rmcpwzp
+2023-12-30T03:39:11.043Z - info: Starting rendering request 2 rootId=27gvhja7rmcpwzp, id=27gvhja7rmcpwzp
+2023-12-30T03:39:11.044Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=27gvhja7rmcpwzp, id=27gvhja7rmcpwzp
+2023-12-30T03:39:11.745Z - info: Rendering request 2 finished in 751 ms rootId=27gvhja7rmcpwzp, id=27gvhja7rmcpwzp
+2023-12-30T03:43:34.675Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 18.17.1)
+2023-12-30T03:43:34.676Z - info: Searching for available extensions in C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\
+2023-12-30T03:43:34.682Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\
+2023-12-30T03:43:34.688Z - info: Found 35 extension(s)
+2023-12-30T03:43:34.741Z - info: Using extension authentication@4.0.1
+2023-12-30T03:43:34.891Z - info: Using extension base@4.0.0
+2023-12-30T03:43:34.894Z - info: Using extension child-templates@4.0.0
+2023-12-30T03:43:34.895Z - info: Using extension cli@4.0.2
+2023-12-30T03:43:34.897Z - info: Using extension components@4.0.0
+2023-12-30T03:43:34.898Z - info: Using extension data@4.0.0
+2023-12-30T03:43:34.899Z - info: Using extension express@4.0.1
+2023-12-30T03:43:35.085Z - info: Using extension freeze@4.0.0
+2023-12-30T03:43:35.087Z - info: Using extension fs-store@4.0.1
+2023-12-30T03:43:35.159Z - info: Using extension handlebars@4.0.1
+2023-12-30T03:43:35.161Z - info: Using extension import-export@4.0.2
+2023-12-30T03:43:35.168Z - info: Using extension jsrender@4.0.0
+2023-12-30T03:43:35.168Z - info: Using extension licensing@4.0.1
+2023-12-30T03:43:35.172Z - info: Using extension localization@4.0.1
+2023-12-30T03:43:35.173Z - info: Using extension npm@4.0.0
+2023-12-30T03:43:35.176Z - info: Using extension pdf-utils@4.0.2
+2023-12-30T03:43:35.178Z - info: Using extension reports@4.0.0
+2023-12-30T03:43:35.180Z - info: Using extension tags@4.0.1
+2023-12-30T03:43:35.181Z - info: Using extension text@4.0.0
+2023-12-30T03:43:35.182Z - info: Using extension version-control@4.0.0
+2023-12-30T03:43:35.191Z - info: Using extension assets@4.0.2
+2023-12-30T03:43:35.200Z - info: Using extension authorization@4.0.0
+2023-12-30T03:43:35.203Z - info: Using extension browser-client@4.0.0
+2023-12-30T03:43:35.205Z - info: Using extension chrome-pdf@4.0.0
+2023-12-30T03:43:35.207Z - info: Using extension docx@4.1.1
+2023-12-30T03:43:35.209Z - info: Using extension html-to-xlsx@4.0.1
+2023-12-30T03:43:35.451Z - info: html-to-xlsx detected chrome as available html engine
+2023-12-30T03:43:35.451Z - info: Using extension pptx@4.1.0
+2023-12-30T03:43:35.453Z - info: Using extension scheduling@4.0.0
+2023-12-30T03:43:35.477Z - info: Using extension scripts@4.0.0
+2023-12-30T03:43:35.478Z - info: Using extension static-pdf@4.0.0
+2023-12-30T03:43:35.479Z - info: Using extension studio@4.0.2
+2023-12-30T03:43:35.531Z - info: Using extension xlsx@4.0.2
+2023-12-30T03:43:35.532Z - info: Using extension public-templates@4.0.0
+2023-12-30T03:43:35.533Z - info: Using extension sample-template@4.0.0
+2023-12-30T03:43:35.535Z - info: Using extension studio-theme-dark@4.0.0
+2023-12-30T03:43:35.536Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-12-30T03:43:35.536Z - info: Using fs provider for template store.
+2023-12-30T03:43:35.540Z - info: fs store is persisting using fs for C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\data
+2023-12-30T03:43:35.548Z - info: fs store is loading data
+2023-12-30T03:43:35.568Z - info: fs store is initialized successfully
+2023-12-30T03:43:35.578Z - info: Creating default express app.
+2023-12-30T03:43:35.600Z - info: jsreport server successfully started on http port: 5488
+2023-12-30T03:43:35.602Z - info: Verifying license key free
+2023-12-30T03:43:35.603Z - info: Using free license
+2023-12-30T03:43:35.607Z - info: Initializing worker threads
+2023-12-30T03:43:36.362Z - info: 2 worker threads initialized in 755ms
+2023-12-30T03:43:36.363Z - info: Starting temp files cleanup with 180000ms threshold
+2023-12-30T03:43:36.364Z - info: reporter initialized
+2023-12-30T03:45:53.991Z - info: Render request 1 queued for execution and waiting for available worker rootId=tzzz8opk52cao01, id=tzzz8opk52cao01
+2023-12-30T03:45:54.053Z - info: Starting rendering request 1 (user: admin) rootId=tzzz8opk52cao01, id=tzzz8opk52cao01
+2023-12-30T03:45:54.054Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=tzzz8opk52cao01, id=tzzz8opk52cao01
+2023-12-30T03:45:54.864Z - info: Rendering request 1 finished in 872 ms rootId=tzzz8opk52cao01, id=tzzz8opk52cao01
+2023-12-30T03:49:27.581Z - info: Render request 2 queued for execution and waiting for available worker rootId=5ypkf0c1qpjudcm, id=5ypkf0c1qpjudcm
+2023-12-30T03:49:27.627Z - info: Starting rendering request 2 (user: admin) rootId=5ypkf0c1qpjudcm, id=5ypkf0c1qpjudcm
+2023-12-30T03:49:27.628Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=5ypkf0c1qpjudcm, id=5ypkf0c1qpjudcm
+2023-12-30T03:49:28.275Z - info: Rendering request 2 finished in 692 ms rootId=5ypkf0c1qpjudcm, id=5ypkf0c1qpjudcm
+2023-12-30T03:54:25.633Z - info: Render request 3 queued for execution and waiting for available worker rootId=p179lemq1n4dg4g, id=p179lemq1n4dg4g
+2023-12-30T03:54:25.642Z - info: Starting rendering request 3 (user: admin) rootId=p179lemq1n4dg4g, id=p179lemq1n4dg4g
+2023-12-30T03:54:25.642Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=p179lemq1n4dg4g, id=p179lemq1n4dg4g
+2023-12-30T03:54:25.834Z - info: Rendering request 3 finished in 201 ms rootId=p179lemq1n4dg4g, id=p179lemq1n4dg4g
+2023-12-30T05:29:28.602Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 18.17.1)
+2023-12-30T05:29:28.604Z - info: Searching for available extensions in C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\
+2023-12-30T05:29:28.610Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\
+2023-12-30T05:29:28.619Z - info: Found 35 extension(s)
+2023-12-30T05:29:28.686Z - info: Using extension authentication@4.0.1
+2023-12-30T05:29:28.890Z - info: Using extension base@4.0.0
+2023-12-30T05:29:28.893Z - info: Using extension child-templates@4.0.0
+2023-12-30T05:29:28.895Z - info: Using extension cli@4.0.2
+2023-12-30T05:29:28.897Z - info: Using extension components@4.0.0
+2023-12-30T05:29:28.898Z - info: Using extension data@4.0.0
+2023-12-30T05:29:28.899Z - info: Using extension express@4.0.1
+2023-12-30T05:29:29.223Z - info: Using extension freeze@4.0.0
+2023-12-30T05:29:29.225Z - info: Using extension fs-store@4.0.1
+2023-12-30T05:29:29.340Z - info: Using extension handlebars@4.0.1
+2023-12-30T05:29:29.342Z - info: Using extension import-export@4.0.2
+2023-12-30T05:29:29.353Z - info: Using extension jsrender@4.0.0
+2023-12-30T05:29:29.354Z - info: Using extension licensing@4.0.1
+2023-12-30T05:29:29.359Z - info: Using extension localization@4.0.1
+2023-12-30T05:29:29.360Z - info: Using extension npm@4.0.0
+2023-12-30T05:29:29.362Z - info: Using extension pdf-utils@4.0.2
+2023-12-30T05:29:29.364Z - info: Using extension reports@4.0.0
+2023-12-30T05:29:29.367Z - info: Using extension tags@4.0.1
+2023-12-30T05:29:29.369Z - info: Using extension text@4.0.0
+2023-12-30T05:29:29.370Z - info: Using extension version-control@4.0.0
+2023-12-30T05:29:29.384Z - info: Using extension assets@4.0.2
+2023-12-30T05:29:29.396Z - info: Using extension authorization@4.0.0
+2023-12-30T05:29:29.401Z - info: Using extension browser-client@4.0.0
+2023-12-30T05:29:29.404Z - info: Using extension chrome-pdf@4.0.0
+2023-12-30T05:29:29.407Z - info: Using extension docx@4.1.1
+2023-12-30T05:29:29.409Z - info: Using extension html-to-xlsx@4.0.1
+2023-12-30T05:29:29.780Z - info: html-to-xlsx detected chrome as available html engine
+2023-12-30T05:29:29.780Z - info: Using extension pptx@4.1.0
+2023-12-30T05:29:29.782Z - info: Using extension scheduling@4.0.0
+2023-12-30T05:29:29.813Z - info: Using extension scripts@4.0.0
+2023-12-30T05:29:29.814Z - info: Using extension static-pdf@4.0.0
+2023-12-30T05:29:29.815Z - info: Using extension studio@4.0.2
+2023-12-30T05:29:29.886Z - info: Using extension xlsx@4.0.2
+2023-12-30T05:29:29.888Z - info: Using extension public-templates@4.0.0
+2023-12-30T05:29:29.889Z - info: Using extension sample-template@4.0.0
+2023-12-30T05:29:29.891Z - info: Using extension studio-theme-dark@4.0.0
+2023-12-30T05:29:29.893Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-12-30T05:29:29.893Z - info: Using fs provider for template store.
+2023-12-30T05:29:29.897Z - info: fs store is persisting using fs for C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\data
+2023-12-30T05:29:29.906Z - info: fs store is loading data
+2023-12-30T05:29:29.925Z - info: fs store is initialized successfully
+2023-12-30T05:29:29.936Z - info: Creating default express app.
+2023-12-30T05:29:29.966Z - info: jsreport server successfully started on http port: 5488
+2023-12-30T05:29:29.968Z - info: Verifying license key free
+2023-12-30T05:29:29.968Z - info: Using free license
+2023-12-30T05:29:29.972Z - info: Initializing worker threads
+2023-12-30T05:29:30.796Z - info: 2 worker threads initialized in 824ms
+2023-12-30T05:29:30.798Z - info: Starting temp files cleanup with 180000ms threshold
+2023-12-30T05:29:30.800Z - info: reporter initialized
+2023-12-30T06:16:47.759Z - info: Render request 1 queued for execution and waiting for available worker rootId=gujkyjg3tnyogqt, id=gujkyjg3tnyogqt
+2023-12-30T06:16:47.860Z - info: Starting rendering request 1 (user: admin) rootId=gujkyjg3tnyogqt, id=gujkyjg3tnyogqt
+2023-12-30T06:16:47.861Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=gujkyjg3tnyogqt, id=gujkyjg3tnyogqt
+2023-12-30T06:16:49.338Z - info: Rendering request 1 finished in 1583 ms rootId=gujkyjg3tnyogqt, id=gujkyjg3tnyogqt
+2023-12-30T06:34:25.719Z - info: Render request 2 queued for execution and waiting for available worker rootId=cnzl359a47cjgyh, id=cnzl359a47cjgyh
+2023-12-30T06:34:25.786Z - info: Starting rendering request 2 (user: admin) rootId=cnzl359a47cjgyh, id=cnzl359a47cjgyh
+2023-12-30T06:34:25.786Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=cnzl359a47cjgyh, id=cnzl359a47cjgyh
+2023-12-30T06:34:26.682Z - info: Rendering request 2 finished in 963 ms rootId=cnzl359a47cjgyh, id=cnzl359a47cjgyh
+2024-01-01T08:47:39.768Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 18.17.1)
+2024-01-01T08:47:39.770Z - info: Searching for available extensions in C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\
+2024-01-01T08:47:39.779Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\
+2024-01-01T08:47:39.789Z - info: Found 35 extension(s)
+2024-01-01T08:47:39.867Z - info: Using extension authentication@4.0.1
+2024-01-01T08:47:40.179Z - info: Using extension base@4.0.0
+2024-01-01T08:47:40.182Z - info: Using extension child-templates@4.0.0
+2024-01-01T08:47:40.184Z - info: Using extension cli@4.0.2
+2024-01-01T08:47:40.188Z - info: Using extension components@4.0.0
+2024-01-01T08:47:40.191Z - info: Using extension data@4.0.0
+2024-01-01T08:47:40.192Z - info: Using extension express@4.0.1
+2024-01-01T08:47:40.589Z - info: Using extension freeze@4.0.0
+2024-01-01T08:47:40.591Z - info: Using extension fs-store@4.0.1
+2024-01-01T08:47:40.734Z - info: Using extension handlebars@4.0.1
+2024-01-01T08:47:40.737Z - info: Using extension import-export@4.0.2
+2024-01-01T08:47:40.751Z - info: Using extension jsrender@4.0.0
+2024-01-01T08:47:40.752Z - info: Using extension licensing@4.0.1
+2024-01-01T08:47:40.782Z - info: Using extension localization@4.0.1
+2024-01-01T08:47:40.783Z - info: Using extension npm@4.0.0
+2024-01-01T08:47:40.788Z - info: Using extension pdf-utils@4.0.2
+2024-01-01T08:47:40.791Z - info: Using extension reports@4.0.0
+2024-01-01T08:47:40.793Z - info: Using extension tags@4.0.1
+2024-01-01T08:47:40.796Z - info: Using extension text@4.0.0
+2024-01-01T08:47:40.797Z - info: Using extension version-control@4.0.0
+2024-01-01T08:47:40.813Z - info: Using extension assets@4.0.2
+2024-01-01T08:47:40.827Z - info: Using extension authorization@4.0.0
+2024-01-01T08:47:40.833Z - info: Using extension browser-client@4.0.0
+2024-01-01T08:47:40.836Z - info: Using extension chrome-pdf@4.0.0
+2024-01-01T08:47:40.840Z - info: Using extension docx@4.1.1
+2024-01-01T08:47:40.842Z - info: Using extension html-to-xlsx@4.0.1
+2024-01-01T08:47:41.312Z - info: html-to-xlsx detected chrome as available html engine
+2024-01-01T08:47:41.312Z - info: Using extension pptx@4.1.0
+2024-01-01T08:47:41.314Z - info: Using extension scheduling@4.0.0
+2024-01-01T08:47:41.348Z - info: Using extension scripts@4.0.0
+2024-01-01T08:47:41.349Z - info: Using extension static-pdf@4.0.0
+2024-01-01T08:47:41.350Z - info: Using extension studio@4.0.2
+2024-01-01T08:47:41.495Z - info: Using extension xlsx@4.0.2
+2024-01-01T08:47:41.498Z - info: Using extension public-templates@4.0.0
+2024-01-01T08:47:41.499Z - info: Using extension sample-template@4.0.0
+2024-01-01T08:47:41.501Z - info: Using extension studio-theme-dark@4.0.0
+2024-01-01T08:47:41.503Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-01-01T08:47:41.503Z - info: Using fs provider for template store.
+2024-01-01T08:47:41.507Z - info: fs store is persisting using fs for C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\data
+2024-01-01T08:47:41.511Z - info: fs store is loading data
+2024-01-01T08:47:41.521Z - info: fs store is initialized successfully
+2024-01-01T08:47:41.531Z - info: Creating default express app.
+2024-01-01T08:47:41.566Z - info: jsreport server successfully started on http port: 5488
+2024-01-01T08:47:41.567Z - info: Verifying license key free
+2024-01-01T08:47:41.568Z - info: Using free license
+2024-01-01T08:47:41.572Z - info: Initializing worker threads
+2024-01-01T08:47:42.383Z - info: 2 worker threads initialized in 811ms
+2024-01-01T08:47:42.385Z - info: Starting temp files cleanup with 180000ms threshold
+2024-01-01T08:47:42.386Z - info: reporter initialized
+2024-01-01T08:47:44.636Z - info: Render request 1 queued for execution and waiting for available worker rootId=ywno7lyc9exaklo, id=ywno7lyc9exaklo
+2024-01-01T08:47:44.736Z - info: Starting rendering request 1 (user: admin) rootId=ywno7lyc9exaklo, id=ywno7lyc9exaklo
+2024-01-01T08:47:44.737Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=ywno7lyc9exaklo, id=ywno7lyc9exaklo
+2024-01-01T08:47:47.052Z - info: Rendering request 1 finished in 2415 ms rootId=ywno7lyc9exaklo, id=ywno7lyc9exaklo
+2024-01-01T08:51:35.339Z - info: Render request 2 queued for execution and waiting for available worker rootId=wcuq59honqx0trw, id=wcuq59honqx0trw
+2024-01-01T08:51:35.390Z - info: Starting rendering request 2 (user: admin) rootId=wcuq59honqx0trw, id=wcuq59honqx0trw
+2024-01-01T08:51:35.390Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=wcuq59honqx0trw, id=wcuq59honqx0trw
+2024-01-01T08:51:36.038Z - info: Rendering request 2 finished in 699 ms rootId=wcuq59honqx0trw, id=wcuq59honqx0trw
+2024-01-01T08:51:39.277Z - info: Render request 3 queued for execution and waiting for available worker rootId=n84jmw0igcqug26, id=n84jmw0igcqug26
+2024-01-01T08:51:39.286Z - info: Starting rendering request 3 (user: admin) rootId=n84jmw0igcqug26, id=n84jmw0igcqug26
+2024-01-01T08:51:39.287Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=n84jmw0igcqug26, id=n84jmw0igcqug26
+2024-01-01T08:51:39.469Z - info: Rendering request 3 finished in 190 ms rootId=n84jmw0igcqug26, id=n84jmw0igcqug26
+2024-01-01T08:51:44.867Z - info: Render request 4 queued for execution and waiting for available worker rootId=wnbngkva7s73jg8, id=wnbngkva7s73jg8
+2024-01-01T08:51:44.879Z - info: Starting rendering request 4 (user: admin) rootId=wnbngkva7s73jg8, id=wnbngkva7s73jg8
+2024-01-01T08:51:44.880Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=wnbngkva7s73jg8, id=wnbngkva7s73jg8
+2024-01-01T08:51:45.030Z - info: Rendering request 4 finished in 163 ms rootId=wnbngkva7s73jg8, id=wnbngkva7s73jg8
+2024-01-01T08:52:50.717Z - info: Render request 5 queued for execution and waiting for available worker rootId=85rbxfeift2less, id=85rbxfeift2less
+2024-01-01T08:52:50.723Z - info: Starting rendering request 5 (user: admin) rootId=85rbxfeift2less, id=85rbxfeift2less
+2024-01-01T08:52:50.723Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=85rbxfeift2less, id=85rbxfeift2less
+2024-01-01T08:52:50.867Z - info: Rendering request 5 finished in 148 ms rootId=85rbxfeift2less, id=85rbxfeift2less
+2024-01-01T08:53:14.854Z - info: Render request 6 queued for execution and waiting for available worker rootId=k0wyv4jjemgkfua, id=k0wyv4jjemgkfua
+2024-01-01T08:53:14.865Z - info: Starting rendering request 6 (user: admin) rootId=k0wyv4jjemgkfua, id=k0wyv4jjemgkfua
+2024-01-01T08:53:14.866Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=k0wyv4jjemgkfua, id=k0wyv4jjemgkfua
+2024-01-01T08:53:15.015Z - info: Rendering request 6 finished in 161 ms rootId=k0wyv4jjemgkfua, id=k0wyv4jjemgkfua
+2024-01-01T08:53:31.638Z - info: Render request 7 queued for execution and waiting for available worker rootId=06nxs1a428aobkc, id=06nxs1a428aobkc
+2024-01-01T08:53:31.649Z - info: Starting rendering request 7 (user: admin) rootId=06nxs1a428aobkc, id=06nxs1a428aobkc
+2024-01-01T08:53:31.650Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=06nxs1a428aobkc, id=06nxs1a428aobkc
+2024-01-01T08:53:31.798Z - info: Rendering request 7 finished in 158 ms rootId=06nxs1a428aobkc, id=06nxs1a428aobkc
+2024-01-01T08:53:51.228Z - info: Render request 8 queued for execution and waiting for available worker rootId=vvgff61c3as3alk, id=vvgff61c3as3alk
+2024-01-01T08:53:51.240Z - info: Starting rendering request 8 (user: admin) rootId=vvgff61c3as3alk, id=vvgff61c3as3alk
+2024-01-01T08:53:51.240Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=vvgff61c3as3alk, id=vvgff61c3as3alk
+2024-01-01T08:53:51.387Z - info: Rendering request 8 finished in 159 ms rootId=vvgff61c3as3alk, id=vvgff61c3as3alk
+2024-01-01T08:59:39.108Z - info: Render request 9 queued for execution and waiting for available worker rootId=lwei2sc5puhyqwj, id=lwei2sc5puhyqwj
+2024-01-01T08:59:39.115Z - info: Starting rendering request 9 (user: admin) rootId=lwei2sc5puhyqwj, id=lwei2sc5puhyqwj
+2024-01-01T08:59:39.116Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=lwei2sc5puhyqwj, id=lwei2sc5puhyqwj
+2024-01-01T08:59:39.310Z - info: Rendering request 9 finished in 203 ms rootId=lwei2sc5puhyqwj, id=lwei2sc5puhyqwj
+2026-04-11T14:18:21.805Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 24.3.0)
+2026-04-11T14:18:21.807Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T14:18:21.808Z - info: Extensions location cache not found, crawling directories
+2026-04-11T14:18:21.959Z - info: Found 35 extension(s)
+2026-04-11T14:18:21.997Z - info: Using extension authentication@4.0.1
+2026-04-11T14:18:22.071Z - info: Using extension base@4.0.0
+2026-04-11T14:18:22.073Z - info: Using extension child-templates@4.0.0
+2026-04-11T14:18:22.073Z - info: Using extension cli@4.0.2
+2026-04-11T14:18:22.075Z - info: Using extension components@4.0.0
+2026-04-11T14:18:22.075Z - info: Using extension data@4.0.0
+2026-04-11T14:18:22.076Z - info: Using extension express@4.0.1
+2026-04-11T14:18:22.203Z - info: Using extension freeze@4.0.0
+2026-04-11T14:18:22.205Z - info: Using extension fs-store@4.0.1
+2026-04-11T14:18:22.578Z - info: Using extension handlebars@4.0.1
+2026-04-11T14:18:22.579Z - info: Using extension import-export@4.0.2
+2026-04-11T14:18:22.583Z - info: Using extension jsrender@4.0.0
+2026-04-11T14:18:22.584Z - info: Using extension licensing@4.0.1
+2026-04-11T14:18:22.593Z - info: Using extension localization@4.0.1
+2026-04-11T14:18:22.593Z - info: Using extension npm@4.0.0
+2026-04-11T14:18:22.597Z - info: Using extension pdf-utils@4.0.2
+2026-04-11T14:18:22.598Z - info: Using extension reports@4.0.0
+2026-04-11T14:18:22.599Z - info: Using extension tags@4.0.1
+2026-04-11T14:18:22.600Z - info: Using extension text@4.0.0
+2026-04-11T14:18:22.600Z - info: Using extension version-control@4.0.0
+2026-04-11T14:18:22.605Z - info: Using extension assets@4.0.2
+2026-04-11T14:18:22.609Z - info: Using extension authorization@4.0.0
+2026-04-11T14:18:22.611Z - info: Using extension browser-client@4.0.0
+2026-04-11T14:18:22.612Z - info: Using extension chrome-pdf@4.0.0
+2026-04-11T14:18:22.613Z - info: Using extension docx@4.1.1
+2026-04-11T14:18:22.614Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-11T14:18:22.776Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-11T14:18:22.777Z - info: Using extension pptx@4.1.0
+2026-04-11T14:18:22.778Z - info: Using extension scheduling@4.0.0
+2026-04-11T14:18:22.790Z - info: Using extension scripts@4.0.0
+2026-04-11T14:18:22.791Z - info: Using extension static-pdf@4.0.0
+2026-04-11T14:18:22.791Z - info: Using extension studio@4.0.2
+2026-04-11T14:18:22.849Z - info: Using extension xlsx@4.0.2
+2026-04-11T14:18:22.850Z - info: Using extension public-templates@4.0.0
+2026-04-11T14:18:22.850Z - info: Using extension sample-template@4.0.0
+2026-04-11T14:18:22.851Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-11T14:18:22.852Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-11T14:18:22.852Z - info: Using fs provider for template store.
+2026-04-11T14:18:22.854Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-11T14:18:22.858Z - info: fs store is loading data
+2026-04-11T14:18:22.868Z - info: fs store is initialized successfully
+2026-04-11T14:18:22.872Z - info: Creating default express app.
+2026-04-11T14:18:22.885Z - info: jsreport server successfully started on http port: 5488
+2026-04-11T14:18:22.885Z - info: Verifying license key free
+2026-04-11T14:18:22.886Z - info: Using free license
+2026-04-11T14:18:22.887Z - info: Initializing worker threads
+2026-04-11T14:18:23.231Z - error: Error occurred during reporter init: TypeError: Accessor not expected at intrinsics.%IteratorPrototype%.constructor
+  at isAllowedProperty (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4029:13)
+  at visitProperties (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4076:26)
+  at isAllowedPropertyValue (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:3963:7)
+  at isAllowedProperty (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4026:14)
+  at visitProperties (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4076:26)
+  at whitelistIntrinsics (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4119:3)
+  at repairIntrinsics (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:9808:3)
+  at globalThis.lockdown (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:9897:28)
+  at WorkerReporter.init (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:88:7)
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17)
+2026-04-11T14:21:53.712Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-04-11T14:21:53.714Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T14:21:53.718Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T14:21:53.721Z - info: Found 35 extension(s)
+2026-04-11T14:21:53.768Z - info: Using extension authentication@4.0.1
+2026-04-11T14:21:53.879Z - info: Using extension base@4.0.0
+2026-04-11T14:21:53.882Z - info: Using extension child-templates@4.0.0
+2026-04-11T14:21:53.883Z - info: Using extension cli@4.0.2
+2026-04-11T14:21:53.884Z - info: Using extension components@4.0.0
+2026-04-11T14:21:53.885Z - info: Using extension data@4.0.0
+2026-04-11T14:21:53.886Z - info: Using extension express@4.0.1
+2026-04-11T14:21:54.016Z - info: Using extension freeze@4.0.0
+2026-04-11T14:21:54.017Z - info: Using extension fs-store@4.0.1
+2026-04-11T14:21:54.081Z - info: Using extension handlebars@4.0.1
+2026-04-11T14:21:54.083Z - info: Using extension import-export@4.0.2
+2026-04-11T14:21:54.089Z - info: Using extension jsrender@4.0.0
+2026-04-11T14:21:54.089Z - info: Using extension licensing@4.0.1
+2026-04-11T14:21:54.103Z - info: Using extension localization@4.0.1
+2026-04-11T14:21:54.104Z - info: Using extension npm@4.0.0
+2026-04-11T14:21:54.106Z - info: Using extension pdf-utils@4.0.2
+2026-04-11T14:21:54.106Z - info: Using extension reports@4.0.0
+2026-04-11T14:21:54.108Z - info: Using extension tags@4.0.1
+2026-04-11T14:21:54.108Z - info: Using extension text@4.0.0
+2026-04-11T14:21:54.109Z - info: Using extension version-control@4.0.0
+2026-04-11T14:21:54.115Z - info: Using extension assets@4.0.2
+2026-04-11T14:21:54.121Z - info: Using extension authorization@4.0.0
+2026-04-11T14:21:54.123Z - info: Using extension browser-client@4.0.0
+2026-04-11T14:21:54.124Z - info: Using extension chrome-pdf@4.0.0
+2026-04-11T14:21:54.126Z - info: Using extension docx@4.1.1
+2026-04-11T14:21:54.127Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-11T14:21:54.309Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-11T14:21:54.309Z - info: Using extension pptx@4.1.0
+2026-04-11T14:21:54.310Z - info: Using extension scheduling@4.0.0
+2026-04-11T14:21:54.325Z - info: Using extension scripts@4.0.0
+2026-04-11T14:21:54.325Z - info: Using extension static-pdf@4.0.0
+2026-04-11T14:21:54.326Z - info: Using extension studio@4.0.2
+2026-04-11T14:21:54.376Z - info: Using extension xlsx@4.0.2
+2026-04-11T14:21:54.377Z - info: Using extension public-templates@4.0.0
+2026-04-11T14:21:54.377Z - info: Using extension sample-template@4.0.0
+2026-04-11T14:21:54.378Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-11T14:21:54.379Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-11T14:21:54.379Z - info: Using fs provider for template store.
+2026-04-11T14:21:54.381Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-11T14:21:54.383Z - info: fs store is loading data
+2026-04-11T14:21:54.394Z - info: fs store is initialized successfully
+2026-04-11T14:21:54.399Z - info: Creating default express app.
+2026-04-11T14:21:54.413Z - info: jsreport server successfully started on http port: 5488
+2026-04-11T14:21:54.414Z - info: Verifying license key free
+2026-04-11T14:21:54.414Z - info: Using free license
+2026-04-11T14:21:54.423Z - info: Initializing worker threads
+2026-04-11T14:21:54.796Z - info: 2 worker threads initialized in 373ms
+2026-04-11T14:21:54.796Z - info: Starting temp files cleanup with 180000ms threshold
+2026-04-11T14:21:54.797Z - info: reporter initialized
+2026-04-11T14:24:41.556Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-04-11T14:24:41.558Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T14:24:41.561Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T14:24:41.563Z - info: Found 35 extension(s)
+2026-04-11T14:24:41.599Z - info: Using extension authentication@4.0.1
+2026-04-11T14:24:41.687Z - info: Using extension base@4.0.0
+2026-04-11T14:24:41.689Z - info: Using extension child-templates@4.0.0
+2026-04-11T14:24:41.690Z - info: Using extension cli@4.0.2
+2026-04-11T14:24:41.691Z - info: Using extension components@4.0.0
+2026-04-11T14:24:41.692Z - info: Using extension data@4.0.0
+2026-04-11T14:24:41.692Z - info: Using extension express@4.0.1
+2026-04-11T14:24:41.821Z - info: Using extension freeze@4.0.0
+2026-04-11T14:24:41.822Z - info: Using extension fs-store@4.0.1
+2026-04-11T14:24:41.865Z - info: Using extension handlebars@4.0.1
+2026-04-11T14:24:41.866Z - info: Using extension import-export@4.0.2
+2026-04-11T14:24:41.870Z - info: Using extension jsrender@4.0.0
+2026-04-11T14:24:41.871Z - info: Using extension licensing@4.0.1
+2026-04-11T14:24:41.882Z - info: Using extension localization@4.0.1
+2026-04-11T14:24:41.882Z - info: Using extension npm@4.0.0
+2026-04-11T14:24:41.884Z - info: Using extension pdf-utils@4.0.2
+2026-04-11T14:24:41.885Z - info: Using extension reports@4.0.0
+2026-04-11T14:24:41.886Z - info: Using extension tags@4.0.1
+2026-04-11T14:24:41.886Z - info: Using extension text@4.0.0
+2026-04-11T14:24:41.887Z - info: Using extension version-control@4.0.0
+2026-04-11T14:24:41.893Z - info: Using extension assets@4.0.2
+2026-04-11T14:24:41.898Z - info: Using extension authorization@4.0.0
+2026-04-11T14:24:41.900Z - info: Using extension browser-client@4.0.0
+2026-04-11T14:24:41.901Z - info: Using extension chrome-pdf@4.0.0
+2026-04-11T14:24:41.902Z - info: Using extension docx@4.1.1
+2026-04-11T14:24:41.903Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-11T14:24:42.087Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-11T14:24:42.087Z - info: Using extension pptx@4.1.0
+2026-04-11T14:24:42.088Z - info: Using extension scheduling@4.0.0
+2026-04-11T14:24:42.105Z - info: Using extension scripts@4.0.0
+2026-04-11T14:24:42.106Z - info: Using extension static-pdf@4.0.0
+2026-04-11T14:24:42.106Z - info: Using extension studio@4.0.2
+2026-04-11T14:24:42.156Z - info: Using extension xlsx@4.0.2
+2026-04-11T14:24:42.157Z - info: Using extension public-templates@4.0.0
+2026-04-11T14:24:42.157Z - info: Using extension sample-template@4.0.0
+2026-04-11T14:24:42.158Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-11T14:24:42.159Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-11T14:24:42.159Z - info: Using fs provider for template store.
+2026-04-11T14:24:42.161Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-11T14:24:42.164Z - info: fs store is loading data
+2026-04-11T14:24:42.175Z - info: fs store is initialized successfully
+2026-04-11T14:50:40.233Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-04-11T14:50:40.234Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T14:50:40.239Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T14:50:40.243Z - info: Found 35 extension(s)
+2026-04-11T14:50:40.282Z - info: Using extension authentication@4.0.1
+2026-04-11T14:50:40.406Z - info: Using extension base@4.0.0
+2026-04-11T14:50:40.408Z - info: Using extension child-templates@4.0.0
+2026-04-11T14:50:40.409Z - info: Using extension cli@4.0.2
+2026-04-11T14:50:40.411Z - info: Using extension components@4.0.0
+2026-04-11T14:50:40.412Z - info: Using extension data@4.0.0
+2026-04-11T14:50:40.412Z - info: Using extension express@4.0.1
+2026-04-11T14:50:40.587Z - info: Using extension freeze@4.0.0
+2026-04-11T14:50:40.589Z - info: Using extension fs-store@4.0.1
+2026-04-11T14:50:40.668Z - info: Using extension handlebars@4.0.1
+2026-04-11T14:50:40.669Z - info: Using extension import-export@4.0.2
+2026-04-11T14:50:40.674Z - info: Using extension jsrender@4.0.0
+2026-04-11T14:50:40.674Z - info: Using extension licensing@4.0.1
+2026-04-11T14:50:40.687Z - info: Using extension localization@4.0.1
+2026-04-11T14:50:40.687Z - info: Using extension npm@4.0.0
+2026-04-11T14:50:40.688Z - info: Using extension pdf-utils@4.0.2
+2026-04-11T14:50:40.689Z - info: Using extension reports@4.0.0
+2026-04-11T14:50:40.690Z - info: Using extension tags@4.0.1
+2026-04-11T14:50:40.690Z - info: Using extension text@4.0.0
+2026-04-11T14:50:40.691Z - info: Using extension version-control@4.0.0
+2026-04-11T14:50:40.697Z - info: Using extension assets@4.0.2
+2026-04-11T14:50:40.702Z - info: Using extension authorization@4.0.0
+2026-04-11T14:50:40.703Z - info: Using extension browser-client@4.0.0
+2026-04-11T14:50:40.705Z - info: Using extension chrome-pdf@4.0.0
+2026-04-11T14:50:40.705Z - info: Using extension docx@4.1.1
+2026-04-11T14:50:40.706Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-11T14:50:40.930Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-11T14:50:40.930Z - info: Using extension pptx@4.1.0
+2026-04-11T14:50:40.931Z - info: Using extension scheduling@4.0.0
+2026-04-11T14:50:40.965Z - info: Using extension scripts@4.0.0
+2026-04-11T14:50:40.966Z - info: Using extension static-pdf@4.0.0
+2026-04-11T14:50:40.968Z - info: Using extension studio@4.0.2
+2026-04-11T14:50:41.034Z - info: Using extension xlsx@4.0.2
+2026-04-11T14:50:41.036Z - info: Using extension public-templates@4.0.0
+2026-04-11T14:50:41.037Z - info: Using extension sample-template@4.0.0
+2026-04-11T14:50:41.039Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-11T14:50:41.042Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-11T14:50:41.042Z - info: Using fs provider for template store.
+2026-04-11T14:50:41.044Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-11T14:50:41.052Z - info: fs store is loading data
+2026-04-11T14:50:41.060Z - info: fs store is initialized successfully
+2026-04-11T14:50:41.065Z - info: Creating default express app.
+2026-04-11T14:50:41.083Z - info: jsreport server successfully started on http port: 5488
+2026-04-11T14:50:41.083Z - info: Verifying license key free
+2026-04-11T14:50:41.083Z - info: Using free license
+2026-04-11T14:50:41.086Z - info: Initializing worker threads
+2026-04-11T14:50:41.481Z - info: 2 worker threads initialized in 395ms
+2026-04-11T14:50:41.481Z - info: Starting temp files cleanup with 180000ms threshold
+2026-04-11T14:50:41.482Z - info: reporter initialized
+2026-04-11T14:51:20.998Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-04-11T14:51:20.999Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T14:51:21.003Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T14:51:21.014Z - info: Found 35 extension(s)
+2026-04-11T14:51:21.065Z - info: Using extension authentication@4.0.1
+2026-04-11T14:51:21.181Z - info: Using extension base@4.0.0
+2026-04-11T14:51:21.184Z - info: Using extension child-templates@4.0.0
+2026-04-11T14:51:21.185Z - info: Using extension cli@4.0.2
+2026-04-11T14:51:21.186Z - info: Using extension components@4.0.0
+2026-04-11T14:51:21.187Z - info: Using extension data@4.0.0
+2026-04-11T14:51:21.187Z - info: Using extension express@4.0.1
+2026-04-11T14:51:21.369Z - info: Using extension freeze@4.0.0
+2026-04-11T14:51:21.371Z - info: Using extension fs-store@4.0.1
+2026-04-11T14:51:21.455Z - info: Using extension handlebars@4.0.1
+2026-04-11T14:51:21.456Z - info: Using extension import-export@4.0.2
+2026-04-11T14:51:21.461Z - info: Using extension jsrender@4.0.0
+2026-04-11T14:51:21.461Z - info: Using extension licensing@4.0.1
+2026-04-11T14:51:21.473Z - info: Using extension localization@4.0.1
+2026-04-11T14:51:21.473Z - info: Using extension npm@4.0.0
+2026-04-11T14:51:21.475Z - info: Using extension pdf-utils@4.0.2
+2026-04-11T14:51:21.475Z - info: Using extension reports@4.0.0
+2026-04-11T14:51:21.476Z - info: Using extension tags@4.0.1
+2026-04-11T14:51:21.478Z - info: Using extension text@4.0.0
+2026-04-11T14:51:21.478Z - info: Using extension version-control@4.0.0
+2026-04-11T14:51:21.485Z - info: Using extension assets@4.0.2
+2026-04-11T14:51:21.490Z - info: Using extension authorization@4.0.0
+2026-04-11T14:51:21.493Z - info: Using extension browser-client@4.0.0
+2026-04-11T14:51:21.494Z - info: Using extension chrome-pdf@4.0.0
+2026-04-11T14:51:21.495Z - info: Using extension docx@4.1.1
+2026-04-11T14:51:21.496Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-11T14:51:21.721Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-11T14:51:21.721Z - info: Using extension pptx@4.1.0
+2026-04-11T14:51:21.722Z - info: Using extension scheduling@4.0.0
+2026-04-11T14:51:21.739Z - info: Using extension scripts@4.0.0
+2026-04-11T14:51:21.740Z - info: Using extension static-pdf@4.0.0
+2026-04-11T14:51:21.741Z - info: Using extension studio@4.0.2
+2026-04-11T14:51:21.802Z - info: Using extension xlsx@4.0.2
+2026-04-11T14:51:21.805Z - info: Using extension public-templates@4.0.0
+2026-04-11T14:51:21.807Z - info: Using extension sample-template@4.0.0
+2026-04-11T14:51:21.809Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-11T14:51:21.810Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-11T14:51:21.811Z - info: Using fs provider for template store.
+2026-04-11T14:51:21.816Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-11T14:51:21.825Z - info: fs store is loading data
+2026-04-11T14:51:21.841Z - info: fs store is initialized successfully
+2026-04-11T14:53:49.390Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-04-11T14:53:49.391Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T14:53:49.396Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T14:53:49.418Z - info: Found 35 extension(s)
+2026-04-11T14:53:49.528Z - info: Using extension authentication@4.0.1
+2026-04-11T14:53:50.146Z - info: Using extension base@4.0.0
+2026-04-11T14:53:50.150Z - info: Using extension child-templates@4.0.0
+2026-04-11T14:53:50.153Z - info: Using extension cli@4.0.2
+2026-04-11T14:53:50.163Z - info: Using extension components@4.0.0
+2026-04-11T14:53:50.164Z - info: Using extension data@4.0.0
+2026-04-11T14:53:50.167Z - info: Using extension express@4.0.1
+2026-04-11T14:53:51.003Z - info: Using extension freeze@4.0.0
+2026-04-11T14:53:51.005Z - info: Using extension fs-store@4.0.1
+2026-04-11T14:53:51.154Z - info: Using extension handlebars@4.0.1
+2026-04-11T14:53:51.156Z - info: Using extension import-export@4.0.2
+2026-04-11T14:53:51.167Z - info: Using extension jsrender@4.0.0
+2026-04-11T14:53:51.167Z - info: Using extension licensing@4.0.1
+2026-04-11T14:53:51.187Z - info: Using extension localization@4.0.1
+2026-04-11T14:53:51.188Z - info: Using extension npm@4.0.0
+2026-04-11T14:53:51.189Z - info: Using extension pdf-utils@4.0.2
+2026-04-11T14:53:51.190Z - info: Using extension reports@4.0.0
+2026-04-11T14:53:51.191Z - info: Using extension tags@4.0.1
+2026-04-11T14:53:51.192Z - info: Using extension text@4.0.0
+2026-04-11T14:53:51.193Z - info: Using extension version-control@4.0.0
+2026-04-11T14:53:51.199Z - info: Using extension assets@4.0.2
+2026-04-11T14:53:51.205Z - info: Using extension authorization@4.0.0
+2026-04-11T14:53:51.207Z - info: Using extension browser-client@4.0.0
+2026-04-11T14:53:51.210Z - info: Using extension chrome-pdf@4.0.0
+2026-04-11T14:53:51.211Z - info: Using extension docx@4.1.1
+2026-04-11T14:53:51.212Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-11T14:53:51.417Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-11T14:53:51.417Z - info: Using extension pptx@4.1.0
+2026-04-11T14:53:51.419Z - info: Using extension scheduling@4.0.0
+2026-04-11T14:53:51.447Z - info: Using extension scripts@4.0.0
+2026-04-11T14:53:51.448Z - info: Using extension static-pdf@4.0.0
+2026-04-11T14:53:51.449Z - info: Using extension studio@4.0.2
+2026-04-11T14:53:51.506Z - info: Using extension xlsx@4.0.2
+2026-04-11T14:53:51.507Z - info: Using extension public-templates@4.0.0
+2026-04-11T14:53:51.508Z - info: Using extension sample-template@4.0.0
+2026-04-11T14:53:51.509Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-11T14:53:51.510Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-11T14:53:51.510Z - info: Using fs provider for template store.
+2026-04-11T14:53:51.512Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-11T14:53:51.516Z - info: fs store is loading data
+2026-04-11T14:53:51.528Z - info: fs store is initialized successfully
+2026-04-11T14:54:26.059Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-04-11T14:54:26.061Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T14:54:26.064Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T14:54:26.066Z - info: Found 35 extension(s)
+2026-04-11T14:54:26.133Z - info: Using extension authentication@4.0.1
+2026-04-11T14:54:26.174Z - info: Using extension base@4.0.0
+2026-04-11T14:54:26.176Z - info: Using extension child-templates@4.0.0
+2026-04-11T14:54:26.176Z - info: Using extension cli@4.0.2
+2026-04-11T14:54:26.177Z - info: Using extension components@4.0.0
+2026-04-11T14:54:26.177Z - info: Using extension data@4.0.0
+2026-04-11T14:54:26.177Z - info: Using extension express@4.0.1
+2026-04-11T14:54:26.262Z - info: Using extension freeze@4.0.0
+2026-04-11T14:54:26.263Z - info: Using extension fs-store@4.0.1
+2026-04-11T14:54:26.291Z - info: Using extension handlebars@4.0.1
+2026-04-11T14:54:26.291Z - info: Using extension import-export@4.0.2
+2026-04-11T14:54:26.294Z - info: Using extension jsrender@4.0.0
+2026-04-11T14:54:26.294Z - info: Using extension licensing@4.0.1
+2026-04-11T14:54:26.300Z - info: Using extension localization@4.0.1
+2026-04-11T14:54:26.300Z - info: Using extension npm@4.0.0
+2026-04-11T14:54:26.302Z - info: Using extension pdf-utils@4.0.2
+2026-04-11T14:54:26.302Z - info: Using extension reports@4.0.0
+2026-04-11T14:54:26.303Z - info: Using extension tags@4.0.1
+2026-04-11T14:54:26.304Z - info: Using extension text@4.0.0
+2026-04-11T14:54:26.304Z - info: Using extension version-control@4.0.0
+2026-04-11T14:54:26.309Z - info: Using extension assets@4.0.2
+2026-04-11T14:54:26.313Z - info: Using extension authorization@4.0.0
+2026-04-11T14:54:26.314Z - info: Using extension browser-client@4.0.0
+2026-04-11T14:54:26.315Z - info: Using extension chrome-pdf@4.0.0
+2026-04-11T14:54:26.316Z - info: Using extension docx@4.1.1
+2026-04-11T14:54:26.317Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-11T14:54:26.424Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-11T14:54:26.424Z - info: Using extension pptx@4.1.0
+2026-04-11T14:54:26.425Z - info: Using extension scheduling@4.0.0
+2026-04-11T14:54:26.435Z - info: Using extension scripts@4.0.0
+2026-04-11T14:54:26.436Z - info: Using extension static-pdf@4.0.0
+2026-04-11T14:54:26.436Z - info: Using extension studio@4.0.2
+2026-04-11T14:54:26.465Z - info: Using extension xlsx@4.0.2
+2026-04-11T14:54:26.465Z - info: Using extension public-templates@4.0.0
+2026-04-11T14:54:26.466Z - info: Using extension sample-template@4.0.0
+2026-04-11T14:54:26.466Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-11T14:54:26.467Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-11T14:54:26.467Z - info: Using fs provider for template store.
+2026-04-11T14:54:26.469Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-11T14:54:26.472Z - info: fs store is loading data
+2026-04-11T14:54:26.494Z - info: fs store is initialized successfully
+2026-04-11T14:55:00.514Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-04-11T14:55:00.518Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T14:55:00.527Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T14:55:00.530Z - info: Found 35 extension(s)
+2026-04-11T14:55:00.564Z - info: Using extension authentication@4.0.1
+2026-04-11T14:55:00.617Z - info: Using extension base@4.0.0
+2026-04-11T14:55:00.623Z - info: Using extension child-templates@4.0.0
+2026-04-11T14:55:00.625Z - info: Using extension cli@4.0.2
+2026-04-11T14:55:00.628Z - info: Using extension components@4.0.0
+2026-04-11T14:55:00.631Z - info: Using extension data@4.0.0
+2026-04-11T14:55:00.633Z - info: Using extension express@4.0.1
+2026-04-11T14:55:00.723Z - info: Using extension freeze@4.0.0
+2026-04-11T14:55:00.724Z - info: Using extension fs-store@4.0.1
+2026-04-11T14:55:00.758Z - info: Using extension handlebars@4.0.1
+2026-04-11T14:55:00.759Z - info: Using extension import-export@4.0.2
+2026-04-11T14:55:00.769Z - info: Using extension jsrender@4.0.0
+2026-04-11T14:55:00.773Z - info: Using extension licensing@4.0.1
+2026-04-11T14:55:00.790Z - info: Using extension localization@4.0.1
+2026-04-11T14:55:00.791Z - info: Using extension npm@4.0.0
+2026-04-11T14:55:00.792Z - info: Using extension pdf-utils@4.0.2
+2026-04-11T14:55:00.793Z - info: Using extension reports@4.0.0
+2026-04-11T14:55:00.794Z - info: Using extension tags@4.0.1
+2026-04-11T14:55:00.795Z - info: Using extension text@4.0.0
+2026-04-11T14:55:00.796Z - info: Using extension version-control@4.0.0
+2026-04-11T14:55:00.804Z - info: Using extension assets@4.0.2
+2026-04-11T14:55:00.808Z - info: Using extension authorization@4.0.0
+2026-04-11T14:55:00.809Z - info: Using extension browser-client@4.0.0
+2026-04-11T14:55:00.811Z - info: Using extension chrome-pdf@4.0.0
+2026-04-11T14:55:00.812Z - info: Using extension docx@4.1.1
+2026-04-11T14:55:00.813Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-11T14:55:00.927Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-11T14:55:00.927Z - info: Using extension pptx@4.1.0
+2026-04-11T14:55:00.927Z - info: Using extension scheduling@4.0.0
+2026-04-11T14:55:00.940Z - info: Using extension scripts@4.0.0
+2026-04-11T14:55:00.940Z - info: Using extension static-pdf@4.0.0
+2026-04-11T14:55:00.941Z - info: Using extension studio@4.0.2
+2026-04-11T14:55:00.971Z - info: Using extension xlsx@4.0.2
+2026-04-11T14:55:00.972Z - info: Using extension public-templates@4.0.0
+2026-04-11T14:55:00.972Z - info: Using extension sample-template@4.0.0
+2026-04-11T14:55:00.973Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-11T14:55:00.974Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-11T14:55:00.974Z - info: Using fs provider for template store.
+2026-04-11T14:55:00.976Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-11T14:55:00.979Z - info: fs store is loading data
+2026-04-11T14:55:00.989Z - info: fs store is initialized successfully
+2026-04-11T14:55:01.010Z - info: Creating default express app.
+2026-04-11T14:55:01.026Z - info: jsreport server successfully started on http port: 5488
+2026-04-11T14:55:01.027Z - info: Verifying license key free
+2026-04-11T14:55:01.028Z - info: Using free license
+2026-04-11T14:55:01.032Z - info: Initializing worker threads
+2026-04-11T14:55:01.467Z - info: 2 worker threads initialized in 435ms
+2026-04-11T14:55:01.467Z - info: Starting temp files cleanup with 180000ms threshold
+2026-04-11T14:55:01.467Z - info: reporter initialized
+2026-04-11T14:56:37.525Z - info: Render request 1 queued for execution and waiting for available worker rootId=i10xxzurncf3h2h, id=i10xxzurncf3h2h
+2026-04-11T14:56:37.537Z - info: Starting rendering request 1 (user: admin) rootId=i10xxzurncf3h2h, id=i10xxzurncf3h2h
+2026-04-11T14:56:37.537Z - warn: Error when processing render request 1
+(because) template must contains _id, name, shortid or content attribute
+Error: Template must contains _id, name, shortid or content attribute
+  at module.exports (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:14:24)
+  at ListenerCollection.fire (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:32)
+  at async beforeRender (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=i10xxzurncf3h2h, id=i10xxzurncf3h2h
+2026-04-11T14:56:37.537Z - warn: Rendering request 1 finished with error in 13 ms rootId=i10xxzurncf3h2h, id=i10xxzurncf3h2h
+2026-04-11T14:56:37.538Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-04-11T14:56:40.990Z - info: Render request 2 queued for execution and waiting for available worker rootId=wqh9lc1qyaho2in, id=wqh9lc1qyaho2in
+2026-04-11T14:56:40.994Z - info: Starting rendering request 2 (user: admin) rootId=wqh9lc1qyaho2in, id=wqh9lc1qyaho2in
+2026-04-11T14:56:40.995Z - warn: Error when processing render request 2
+(because) template must contains _id, name, shortid or content attribute
+Error: Template must contains _id, name, shortid or content attribute
+  at module.exports (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:14:24)
+  at ListenerCollection.fire (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:32)
+  at async beforeRender (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=wqh9lc1qyaho2in, id=wqh9lc1qyaho2in
+2026-04-11T14:56:40.995Z - warn: Rendering request 2 finished with error in 5 ms rootId=wqh9lc1qyaho2in, id=wqh9lc1qyaho2in
+2026-04-11T14:56:41.000Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-04-11T14:56:44.500Z - info: Render request 3 queued for execution and waiting for available worker rootId=y458zzocbsd4uil, id=y458zzocbsd4uil
+2026-04-11T14:56:44.506Z - info: Starting rendering request 3 (user: admin) rootId=y458zzocbsd4uil, id=y458zzocbsd4uil
+2026-04-11T14:56:44.506Z - warn: Error when processing render request 3
+(because) template must contains _id, name, shortid or content attribute
+Error: Template must contains _id, name, shortid or content attribute
+  at module.exports (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:14:24)
+  at ListenerCollection.fire (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:32)
+  at async beforeRender (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=y458zzocbsd4uil, id=y458zzocbsd4uil
+2026-04-11T14:56:44.506Z - warn: Rendering request 3 finished with error in 9 ms rootId=y458zzocbsd4uil, id=y458zzocbsd4uil
+2026-04-11T14:56:44.506Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-04-11T14:56:52.322Z - info: Render request 4 queued for execution and waiting for available worker rootId=ibegd9zqfh1kby2, id=ibegd9zqfh1kby2
+2026-04-11T14:56:52.328Z - info: Starting rendering request 4 (user: admin) rootId=ibegd9zqfh1kby2, id=ibegd9zqfh1kby2
+2026-04-11T14:56:52.329Z - warn: Error when processing render request 4
+(because) template must contains _id, name, shortid or content attribute
+Error: Template must contains _id, name, shortid or content attribute
+  at module.exports (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:14:24)
+  at ListenerCollection.fire (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:32)
+  at async beforeRender (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=ibegd9zqfh1kby2, id=ibegd9zqfh1kby2
+2026-04-11T14:56:52.329Z - warn: Rendering request 4 finished with error in 6 ms rootId=ibegd9zqfh1kby2, id=ibegd9zqfh1kby2
+2026-04-11T14:56:52.330Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-04-11T15:01:25.430Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-04-11T15:01:25.432Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T15:01:25.435Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T15:01:25.438Z - info: Found 35 extension(s)
+2026-04-11T15:01:25.500Z - info: Using extension authentication@4.0.1
+2026-04-11T15:01:25.588Z - info: Using extension base@4.0.0
+2026-04-11T15:01:25.590Z - info: Using extension child-templates@4.0.0
+2026-04-11T15:01:25.591Z - info: Using extension cli@4.0.2
+2026-04-11T15:01:25.592Z - info: Using extension components@4.0.0
+2026-04-11T15:01:25.593Z - info: Using extension data@4.0.0
+2026-04-11T15:01:25.593Z - info: Using extension express@4.0.1
+2026-04-11T15:01:25.731Z - info: Using extension freeze@4.0.0
+2026-04-11T15:01:25.732Z - info: Using extension fs-store@4.0.1
+2026-04-11T15:01:25.802Z - info: Using extension handlebars@4.0.1
+2026-04-11T15:01:25.803Z - info: Using extension import-export@4.0.2
+2026-04-11T15:01:25.807Z - info: Using extension jsrender@4.0.0
+2026-04-11T15:01:25.808Z - info: Using extension licensing@4.0.1
+2026-04-11T15:01:25.819Z - info: Using extension localization@4.0.1
+2026-04-11T15:01:25.819Z - info: Using extension npm@4.0.0
+2026-04-11T15:01:25.821Z - info: Using extension pdf-utils@4.0.2
+2026-04-11T15:01:25.821Z - info: Using extension reports@4.0.0
+2026-04-11T15:01:25.822Z - info: Using extension tags@4.0.1
+2026-04-11T15:01:25.823Z - info: Using extension text@4.0.0
+2026-04-11T15:01:25.823Z - info: Using extension version-control@4.0.0
+2026-04-11T15:01:25.829Z - info: Using extension assets@4.0.2
+2026-04-11T15:01:25.834Z - info: Using extension authorization@4.0.0
+2026-04-11T15:01:25.836Z - info: Using extension browser-client@4.0.0
+2026-04-11T15:01:25.837Z - info: Using extension chrome-pdf@4.0.0
+2026-04-11T15:01:25.838Z - info: Using extension docx@4.1.1
+2026-04-11T15:01:25.838Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-11T15:01:26.018Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-11T15:01:26.018Z - info: Using extension pptx@4.1.0
+2026-04-11T15:01:26.019Z - info: Using extension scheduling@4.0.0
+2026-04-11T15:01:26.039Z - info: Using extension scripts@4.0.0
+2026-04-11T15:01:26.039Z - info: Using extension static-pdf@4.0.0
+2026-04-11T15:01:26.040Z - info: Using extension studio@4.0.2
+2026-04-11T15:01:26.111Z - info: Using extension xlsx@4.0.2
+2026-04-11T15:01:26.112Z - info: Using extension public-templates@4.0.0
+2026-04-11T15:01:26.112Z - info: Using extension sample-template@4.0.0
+2026-04-11T15:01:26.113Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-11T15:01:26.114Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-11T15:01:26.114Z - info: Using fs provider for template store.
+2026-04-11T15:01:26.116Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-11T15:01:26.118Z - info: fs store is loading data
+2026-04-11T15:01:26.128Z - info: fs store is initialized successfully
+2026-04-11T15:01:26.133Z - info: Creating default express app.
+2026-04-11T15:01:26.149Z - info: jsreport server successfully started on http port: 5488
+2026-04-11T15:01:26.149Z - info: Verifying license key free
+2026-04-11T15:01:26.149Z - info: Using free license
+2026-04-11T15:01:26.151Z - info: Initializing worker threads
+2026-04-11T15:01:26.546Z - info: 2 worker threads initialized in 395ms
+2026-04-11T15:01:26.546Z - info: Starting temp files cleanup with 180000ms threshold
+2026-04-11T15:01:26.547Z - info: reporter initialized
+2026-04-11T15:02:35.323Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-04-11T15:02:35.325Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T15:02:35.329Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T15:02:35.333Z - info: Found 35 extension(s)
+2026-04-11T15:02:35.371Z - info: Using extension authentication@4.0.1
+2026-04-11T15:02:35.449Z - info: Using extension base@4.0.0
+2026-04-11T15:02:35.452Z - info: Using extension child-templates@4.0.0
+2026-04-11T15:02:35.452Z - info: Using extension cli@4.0.2
+2026-04-11T15:02:35.453Z - info: Using extension components@4.0.0
+2026-04-11T15:02:35.454Z - info: Using extension data@4.0.0
+2026-04-11T15:02:35.454Z - info: Using extension express@4.0.1
+2026-04-11T15:02:35.601Z - info: Using extension freeze@4.0.0
+2026-04-11T15:02:35.602Z - info: Using extension fs-store@4.0.1
+2026-04-11T15:02:35.656Z - info: Using extension handlebars@4.0.1
+2026-04-11T15:02:35.657Z - info: Using extension import-export@4.0.2
+2026-04-11T15:02:35.662Z - info: Using extension jsrender@4.0.0
+2026-04-11T15:02:35.663Z - info: Using extension licensing@4.0.1
+2026-04-11T15:02:35.675Z - info: Using extension localization@4.0.1
+2026-04-11T15:02:35.676Z - info: Using extension npm@4.0.0
+2026-04-11T15:02:35.677Z - info: Using extension pdf-utils@4.0.2
+2026-04-11T15:02:35.678Z - info: Using extension reports@4.0.0
+2026-04-11T15:02:35.679Z - info: Using extension tags@4.0.1
+2026-04-11T15:02:35.680Z - info: Using extension text@4.0.0
+2026-04-11T15:02:35.681Z - info: Using extension version-control@4.0.0
+2026-04-11T15:02:35.688Z - info: Using extension assets@4.0.2
+2026-04-11T15:02:35.694Z - info: Using extension authorization@4.0.0
+2026-04-11T15:02:35.697Z - info: Using extension browser-client@4.0.0
+2026-04-11T15:02:35.698Z - info: Using extension chrome-pdf@4.0.0
+2026-04-11T15:02:35.700Z - info: Using extension docx@4.1.1
+2026-04-11T15:02:35.701Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-11T15:02:35.873Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-11T15:02:35.873Z - info: Using extension pptx@4.1.0
+2026-04-11T15:02:35.874Z - info: Using extension scheduling@4.0.0
+2026-04-11T15:02:35.889Z - info: Using extension scripts@4.0.0
+2026-04-11T15:02:35.890Z - info: Using extension static-pdf@4.0.0
+2026-04-11T15:02:35.890Z - info: Using extension studio@4.0.2
+2026-04-11T15:02:35.945Z - info: Using extension xlsx@4.0.2
+2026-04-11T15:02:35.947Z - info: Using extension public-templates@4.0.0
+2026-04-11T15:02:35.947Z - info: Using extension sample-template@4.0.0
+2026-04-11T15:02:35.948Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-11T15:02:35.948Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-11T15:02:35.948Z - info: Using fs provider for template store.
+2026-04-11T15:02:35.951Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-11T15:02:35.955Z - info: fs store is loading data
+2026-04-11T15:02:35.966Z - info: fs store is initialized successfully
+2026-04-11T15:02:51.845Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-04-11T15:02:51.846Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T15:02:51.849Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T15:02:51.851Z - info: Found 35 extension(s)
+2026-04-11T15:02:51.882Z - info: Using extension authentication@4.0.1
+2026-04-11T15:02:51.959Z - info: Using extension base@4.0.0
+2026-04-11T15:02:51.961Z - info: Using extension child-templates@4.0.0
+2026-04-11T15:02:51.962Z - info: Using extension cli@4.0.2
+2026-04-11T15:02:51.963Z - info: Using extension components@4.0.0
+2026-04-11T15:02:51.964Z - info: Using extension data@4.0.0
+2026-04-11T15:02:51.964Z - info: Using extension express@4.0.1
+2026-04-11T15:02:52.096Z - info: Using extension freeze@4.0.0
+2026-04-11T15:02:52.097Z - info: Using extension fs-store@4.0.1
+2026-04-11T15:02:52.141Z - info: Using extension handlebars@4.0.1
+2026-04-11T15:02:52.142Z - info: Using extension import-export@4.0.2
+2026-04-11T15:02:52.146Z - info: Using extension jsrender@4.0.0
+2026-04-11T15:02:52.147Z - info: Using extension licensing@4.0.1
+2026-04-11T15:02:52.170Z - info: Using extension localization@4.0.1
+2026-04-11T15:02:52.171Z - info: Using extension npm@4.0.0
+2026-04-11T15:02:52.174Z - info: Using extension pdf-utils@4.0.2
+2026-04-11T15:02:52.176Z - info: Using extension reports@4.0.0
+2026-04-11T15:02:52.177Z - info: Using extension tags@4.0.1
+2026-04-11T15:02:52.178Z - info: Using extension text@4.0.0
+2026-04-11T15:02:52.178Z - info: Using extension version-control@4.0.0
+2026-04-11T15:02:52.187Z - info: Using extension assets@4.0.2
+2026-04-11T15:02:52.193Z - info: Using extension authorization@4.0.0
+2026-04-11T15:02:52.195Z - info: Using extension browser-client@4.0.0
+2026-04-11T15:02:52.196Z - info: Using extension chrome-pdf@4.0.0
+2026-04-11T15:02:52.198Z - info: Using extension docx@4.1.1
+2026-04-11T15:02:52.199Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-11T15:02:52.359Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-11T15:02:52.359Z - info: Using extension pptx@4.1.0
+2026-04-11T15:02:52.360Z - info: Using extension scheduling@4.0.0
+2026-04-11T15:02:52.373Z - info: Using extension scripts@4.0.0
+2026-04-11T15:02:52.374Z - info: Using extension static-pdf@4.0.0
+2026-04-11T15:02:52.374Z - info: Using extension studio@4.0.2
+2026-04-11T15:02:52.422Z - info: Using extension xlsx@4.0.2
+2026-04-11T15:02:52.423Z - info: Using extension public-templates@4.0.0
+2026-04-11T15:02:52.424Z - info: Using extension sample-template@4.0.0
+2026-04-11T15:02:52.424Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-11T15:02:52.425Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-11T15:02:52.425Z - info: Using fs provider for template store.
+2026-04-11T15:02:52.427Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-11T15:02:52.430Z - info: fs store is loading data
+2026-04-11T15:02:52.440Z - info: fs store is initialized successfully
+2026-04-11T15:02:52.447Z - info: Creating default express app.
+2026-04-11T15:02:52.461Z - info: jsreport server successfully started on http port: 5488
+2026-04-11T15:02:52.462Z - info: Verifying license key free
+2026-04-11T15:02:52.462Z - info: Using free license
+2026-04-11T15:02:52.465Z - info: Initializing worker threads
+2026-04-11T15:02:52.826Z - info: 2 worker threads initialized in 361ms
+2026-04-11T15:02:52.826Z - info: Starting temp files cleanup with 180000ms threshold
+2026-04-11T15:02:52.827Z - info: reporter initialized
+2026-04-11T15:03:55.727Z - info: Render request 1 queued for execution and waiting for available worker rootId=fj8b9k8hz4ujift, id=fj8b9k8hz4ujift
+2026-04-11T15:03:55.740Z - info: Starting rendering request 1 (user: admin) rootId=fj8b9k8hz4ujift, id=fj8b9k8hz4ujift
+2026-04-11T15:03:55.740Z - warn: Error when processing render request 1
+(because) template must contains _id, name, shortid or content attribute
+Error: Template must contains _id, name, shortid or content attribute
+  at module.exports (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:14:24)
+  at ListenerCollection.fire (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:32)
+  at async beforeRender (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=fj8b9k8hz4ujift, id=fj8b9k8hz4ujift
+2026-04-11T15:03:55.740Z - warn: Rendering request 1 finished with error in 13 ms rootId=fj8b9k8hz4ujift, id=fj8b9k8hz4ujift
+2026-04-11T15:03:55.741Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-04-11T15:04:01.745Z - info: Render request 2 queued for execution and waiting for available worker rootId=8a3tgjibxmn77ld, id=8a3tgjibxmn77ld
+2026-04-11T15:04:01.751Z - info: Starting rendering request 2 (user: admin) rootId=8a3tgjibxmn77ld, id=8a3tgjibxmn77ld
+2026-04-11T15:04:01.751Z - warn: Error when processing render request 2
+(because) template must contains _id, name, shortid or content attribute
+Error: Template must contains _id, name, shortid or content attribute
+  at module.exports (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:14:24)
+  at ListenerCollection.fire (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:32)
+  at async beforeRender (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=8a3tgjibxmn77ld, id=8a3tgjibxmn77ld
+2026-04-11T15:04:01.751Z - warn: Rendering request 2 finished with error in 7 ms rootId=8a3tgjibxmn77ld, id=8a3tgjibxmn77ld
+2026-04-11T15:04:01.752Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-04-11T15:04:25.213Z - info: Render request 3 queued for execution and waiting for available worker rootId=7mtenut2sig5uws, id=7mtenut2sig5uws
+2026-04-11T15:04:25.217Z - info: Starting rendering request 3 (user: admin) rootId=7mtenut2sig5uws, id=7mtenut2sig5uws
+2026-04-11T15:04:25.217Z - warn: Error when processing render request 3
+(because) template must contains _id, name, shortid or content attribute
+Error: Template must contains _id, name, shortid or content attribute
+  at module.exports (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:14:24)
+  at ListenerCollection.fire (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:32)
+  at async beforeRender (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=7mtenut2sig5uws, id=7mtenut2sig5uws
+2026-04-11T15:04:25.217Z - warn: Rendering request 3 finished with error in 5 ms rootId=7mtenut2sig5uws, id=7mtenut2sig5uws
+2026-04-11T15:04:25.218Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-04-11T15:06:00.953Z - info: Render request 4 queued for execution and waiting for available worker rootId=jdwm8vuyz1dhl1r, id=jdwm8vuyz1dhl1r
+2026-04-11T15:06:00.980Z - info: Starting rendering request 4 (user: admin) rootId=jdwm8vuyz1dhl1r, id=jdwm8vuyz1dhl1r
+2026-04-11T15:06:00.980Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=jdwm8vuyz1dhl1r, id=jdwm8vuyz1dhl1r
+2026-04-11T15:06:04.053Z - error: Error when processing render request 4
+(because) user code threw with non-Error: {} rootId=jdwm8vuyz1dhl1r, id=jdwm8vuyz1dhl1r
+2026-04-11T15:06:04.053Z - error: Rendering request 4 finished with error in 3099 ms rootId=jdwm8vuyz1dhl1r, id=jdwm8vuyz1dhl1r
+2026-04-11T15:06:04.054Z - error: Error during processing request at http://localhost:5488/api/report
+2026-04-11T15:08:18.258Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-04-11T15:08:18.260Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T15:08:18.264Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T15:08:18.266Z - info: Found 35 extension(s)
+2026-04-11T15:08:18.308Z - info: Using extension authentication@4.0.1
+2026-04-11T15:08:18.458Z - info: Using extension base@4.0.0
+2026-04-11T15:08:18.461Z - info: Using extension child-templates@4.0.0
+2026-04-11T15:08:18.462Z - info: Using extension cli@4.0.2
+2026-04-11T15:08:18.463Z - info: Using extension components@4.0.0
+2026-04-11T15:08:18.464Z - info: Using extension data@4.0.0
+2026-04-11T15:08:18.464Z - info: Using extension express@4.0.1
+2026-04-11T15:08:18.638Z - info: Using extension freeze@4.0.0
+2026-04-11T15:08:18.640Z - info: Using extension fs-store@4.0.1
+2026-04-11T15:08:18.721Z - info: Using extension handlebars@4.0.1
+2026-04-11T15:08:18.722Z - info: Using extension import-export@4.0.2
+2026-04-11T15:08:18.727Z - info: Using extension jsrender@4.0.0
+2026-04-11T15:08:18.728Z - info: Using extension licensing@4.0.1
+2026-04-11T15:08:18.738Z - info: Using extension localization@4.0.1
+2026-04-11T15:08:18.739Z - info: Using extension npm@4.0.0
+2026-04-11T15:08:18.741Z - info: Using extension pdf-utils@4.0.2
+2026-04-11T15:08:18.742Z - info: Using extension reports@4.0.0
+2026-04-11T15:08:18.744Z - info: Using extension tags@4.0.1
+2026-04-11T15:08:18.745Z - info: Using extension text@4.0.0
+2026-04-11T15:08:18.745Z - info: Using extension version-control@4.0.0
+2026-04-11T15:08:18.752Z - info: Using extension assets@4.0.2
+2026-04-11T15:08:18.757Z - info: Using extension authorization@4.0.0
+2026-04-11T15:08:18.759Z - info: Using extension browser-client@4.0.0
+2026-04-11T15:08:18.761Z - info: Using extension chrome-pdf@4.0.0
+2026-04-11T15:08:18.762Z - info: Using extension docx@4.1.1
+2026-04-11T15:08:18.763Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-11T15:08:18.975Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-11T15:08:18.975Z - info: Using extension pptx@4.1.0
+2026-04-11T15:08:18.976Z - info: Using extension scheduling@4.0.0
+2026-04-11T15:08:18.994Z - info: Using extension scripts@4.0.0
+2026-04-11T15:08:18.995Z - info: Using extension static-pdf@4.0.0
+2026-04-11T15:08:18.995Z - info: Using extension studio@4.0.2
+2026-04-11T15:08:19.072Z - info: Using extension xlsx@4.0.2
+2026-04-11T15:08:19.075Z - info: Using extension public-templates@4.0.0
+2026-04-11T15:08:19.076Z - info: Using extension sample-template@4.0.0
+2026-04-11T15:08:19.079Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-11T15:08:19.080Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-11T15:08:19.080Z - info: Using fs provider for template store.
+2026-04-11T15:08:19.082Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-11T15:08:19.091Z - info: fs store is loading data
+2026-04-11T15:08:19.102Z - info: fs store is initialized successfully
+2026-04-11T15:08:19.108Z - info: Creating default express app.
+2026-04-11T15:08:19.123Z - info: jsreport server successfully started on http port: 5488
+2026-04-11T15:08:19.123Z - info: Verifying license key free
+2026-04-11T15:08:19.123Z - info: Using free license
+2026-04-11T15:08:19.125Z - info: Initializing worker threads
+2026-04-11T15:08:19.483Z - info: 2 worker threads initialized in 358ms
+2026-04-11T15:08:19.483Z - info: Starting temp files cleanup with 180000ms threshold
+2026-04-11T15:08:19.483Z - info: reporter initialized
+2026-04-11T15:08:28.719Z - info: Render request 1 queued for execution and waiting for available worker rootId=7fb3us1kaf2tb6d, id=7fb3us1kaf2tb6d
+2026-04-11T15:08:28.750Z - info: Starting rendering request 1 (user: admin) rootId=7fb3us1kaf2tb6d, id=7fb3us1kaf2tb6d
+2026-04-11T15:08:28.750Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=7fb3us1kaf2tb6d, id=7fb3us1kaf2tb6d
+2026-04-11T15:08:28.978Z - warn: Error when processing render request 1
+(because) error when evaluating engine handlebars for template /invoice-pos/invoice-main
+(because) parse error on line 20:
+...-logo" src="{{asset \"/invoice-pos/asset
+-----------------------^
+Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'INVALID'
+
+(sandbox.js line 3115:18)
+Error: Parse error on line 20:
+...-logo" src="{{asset \"/invoice-pos/asset
+-----------------------^
+Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'INVALID'
+  at Parser.parseError (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:267:19)
+  at Parser.parse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:336:30)
+  at parseWithoutProcessing (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:46:33)
+  at HandlebarsEnvironment.parse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:52:13)
+  at Object.precompile (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:485:17)
+  at hb.precompile (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/handlebars/dist/cjs/handlebars.js:42:40)
+  at Object.compile (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-handlebars/lib/handlebarsEngine.js:34:52)
+  at Object.compile (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-handlebars/lib/worker.js:26:43)
+  at executionFn (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:201:42)
+  at eval (sandbox.js:3115:18)
+  at async run (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/runInSandbox.js:195:14)
+  at async executeEngine (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:287:14)
+  at async engine.engine (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:115:14)
+  at async invokeRender (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:61:23)
+  at async WorkerReporter._render (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:142:7)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /invoice-pos/invoice-main
+(because) parse error on line 20:
+...-logo" src="{{asset \"/invoice-pos/asset
+-----------------------^
+Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'INVALID'
+  at module.exports (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at executeEngine (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:310:33)
+  at async engine.engine (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:115:14)
+  at async invokeRender (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:61:23)
+  at async WorkerReporter._render (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:142:7)
+  at async /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=7fb3us1kaf2tb6d, id=7fb3us1kaf2tb6d
+2026-04-11T15:08:28.979Z - warn: Rendering request 1 finished with error in 261 ms rootId=7fb3us1kaf2tb6d, id=7fb3us1kaf2tb6d
+2026-04-11T15:08:28.980Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-04-11T15:08:53.059Z - info: Render request 2 queued for execution and waiting for available worker rootId=bgzmr7v96ymoz6t, id=bgzmr7v96ymoz6t
+2026-04-11T15:08:53.076Z - info: Starting rendering request 2 (user: admin) rootId=bgzmr7v96ymoz6t, id=bgzmr7v96ymoz6t
+2026-04-11T15:08:53.076Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=bgzmr7v96ymoz6t, id=bgzmr7v96ymoz6t
+2026-04-11T15:08:53.273Z - warn: Error when processing render request 2
+(because) error when evaluating engine handlebars for template /invoice-pos/invoice-main
+(because) parse error on line 20:
+...-logo" src="{{asset \"/invoice-pos/asset
+-----------------------^
+Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'INVALID'
+
+(sandbox.js line 3115:18)
+Error: Parse error on line 20:
+...-logo" src="{{asset \"/invoice-pos/asset
+-----------------------^
+Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'INVALID'
+  at Parser.parseError (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:267:19)
+  at Parser.parse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:336:30)
+  at parseWithoutProcessing (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:46:33)
+  at HandlebarsEnvironment.parse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:52:13)
+  at Object.precompile (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:485:17)
+  at hb.precompile (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/handlebars/dist/cjs/handlebars.js:42:40)
+  at Object.compile (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-handlebars/lib/handlebarsEngine.js:34:52)
+  at Object.compile (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-handlebars/lib/worker.js:26:43)
+  at executionFn (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:201:42)
+  at eval (sandbox.js:3115:18)
+  at async run (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/runInSandbox.js:195:14)
+  at async executeEngine (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:287:14)
+  at async engine.engine (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:115:14)
+  at async invokeRender (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:61:23)
+  at async WorkerReporter._render (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:142:7)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /invoice-pos/invoice-main
+(because) parse error on line 20:
+...-logo" src="{{asset \"/invoice-pos/asset
+-----------------------^
+Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'INVALID'
+  at module.exports (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at executeEngine (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:310:33)
+  at async engine.engine (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:115:14)
+  at async invokeRender (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:61:23)
+  at async WorkerReporter._render (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:142:7)
+  at async /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=bgzmr7v96ymoz6t, id=bgzmr7v96ymoz6t
+2026-04-11T15:08:53.273Z - warn: Rendering request 2 finished with error in 215 ms rootId=bgzmr7v96ymoz6t, id=bgzmr7v96ymoz6t
+2026-04-11T15:08:53.274Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-04-11T15:09:25.491Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-04-11T15:09:25.499Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T15:09:25.505Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T15:09:25.510Z - info: Found 35 extension(s)
+2026-04-11T15:09:25.551Z - info: Using extension authentication@4.0.1
+2026-04-11T15:09:25.625Z - info: Using extension base@4.0.0
+2026-04-11T15:09:25.627Z - info: Using extension child-templates@4.0.0
+2026-04-11T15:09:25.628Z - info: Using extension cli@4.0.2
+2026-04-11T15:09:25.629Z - info: Using extension components@4.0.0
+2026-04-11T15:09:25.630Z - info: Using extension data@4.0.0
+2026-04-11T15:09:25.630Z - info: Using extension express@4.0.1
+2026-04-11T15:09:25.772Z - info: Using extension freeze@4.0.0
+2026-04-11T15:09:25.773Z - info: Using extension fs-store@4.0.1
+2026-04-11T15:09:25.819Z - info: Using extension handlebars@4.0.1
+2026-04-11T15:09:25.820Z - info: Using extension import-export@4.0.2
+2026-04-11T15:09:25.824Z - info: Using extension jsrender@4.0.0
+2026-04-11T15:09:25.825Z - info: Using extension licensing@4.0.1
+2026-04-11T15:09:25.834Z - info: Using extension localization@4.0.1
+2026-04-11T15:09:25.835Z - info: Using extension npm@4.0.0
+2026-04-11T15:09:25.836Z - info: Using extension pdf-utils@4.0.2
+2026-04-11T15:09:25.837Z - info: Using extension reports@4.0.0
+2026-04-11T15:09:25.838Z - info: Using extension tags@4.0.1
+2026-04-11T15:09:25.838Z - info: Using extension text@4.0.0
+2026-04-11T15:09:25.839Z - info: Using extension version-control@4.0.0
+2026-04-11T15:09:25.844Z - info: Using extension assets@4.0.2
+2026-04-11T15:09:25.849Z - info: Using extension authorization@4.0.0
+2026-04-11T15:09:25.851Z - info: Using extension browser-client@4.0.0
+2026-04-11T15:09:25.852Z - info: Using extension chrome-pdf@4.0.0
+2026-04-11T15:09:25.854Z - info: Using extension docx@4.1.1
+2026-04-11T15:09:25.855Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-11T15:09:26.019Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-11T15:09:26.019Z - info: Using extension pptx@4.1.0
+2026-04-11T15:09:26.020Z - info: Using extension scheduling@4.0.0
+2026-04-11T15:09:26.035Z - info: Using extension scripts@4.0.0
+2026-04-11T15:09:26.035Z - info: Using extension static-pdf@4.0.0
+2026-04-11T15:09:26.036Z - info: Using extension studio@4.0.2
+2026-04-11T15:09:26.081Z - info: Using extension xlsx@4.0.2
+2026-04-11T15:09:26.082Z - info: Using extension public-templates@4.0.0
+2026-04-11T15:09:26.083Z - info: Using extension sample-template@4.0.0
+2026-04-11T15:09:26.084Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-11T15:09:26.084Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-11T15:09:26.084Z - info: Using fs provider for template store.
+2026-04-11T15:09:26.087Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-11T15:09:26.089Z - info: fs store is loading data
+2026-04-11T15:09:26.100Z - info: fs store is initialized successfully
+2026-04-11T15:09:26.106Z - info: Creating default express app.
+2026-04-11T15:09:26.119Z - info: jsreport server successfully started on http port: 5488
+2026-04-11T15:09:26.120Z - info: Verifying license key free
+2026-04-11T15:09:26.120Z - info: Using free license
+2026-04-11T15:09:26.122Z - info: Initializing worker threads
+2026-04-11T15:09:26.497Z - info: 2 worker threads initialized in 375ms
+2026-04-11T15:09:26.497Z - info: Starting temp files cleanup with 180000ms threshold
+2026-04-11T15:09:26.498Z - info: reporter initialized
+2026-04-11T15:09:35.896Z - info: Render request 1 queued for execution and waiting for available worker rootId=sutrp1r2sg9zk8z, id=sutrp1r2sg9zk8z
+2026-04-11T15:09:35.948Z - info: Starting rendering request 1 (user: admin) rootId=sutrp1r2sg9zk8z, id=sutrp1r2sg9zk8z
+2026-04-11T15:09:35.948Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=sutrp1r2sg9zk8z, id=sutrp1r2sg9zk8z
+2026-04-11T15:09:37.065Z - error: Error when processing render request 1
+(because) user code threw with non-Error: {} rootId=sutrp1r2sg9zk8z, id=sutrp1r2sg9zk8z
+2026-04-11T15:09:37.065Z - error: Rendering request 1 finished with error in 1170 ms rootId=sutrp1r2sg9zk8z, id=sutrp1r2sg9zk8z
+2026-04-11T15:09:37.067Z - error: Error during processing request at http://localhost:5488/api/report
+2026-04-11T15:10:27.751Z - info: Render request 2 queued for execution and waiting for available worker rootId=gntnhjnuneb8b7q, id=gntnhjnuneb8b7q
+2026-04-11T15:10:27.754Z - info: Starting rendering request 2 (user: admin) rootId=gntnhjnuneb8b7q, id=gntnhjnuneb8b7q
+2026-04-11T15:10:27.754Z - warn: Error when processing render request 2
+(because) template must contains _id, name, shortid or content attribute
+Error: Template must contains _id, name, shortid or content attribute
+  at module.exports (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:14:24)
+  at ListenerCollection.fire (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:32)
+  at async beforeRender (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=gntnhjnuneb8b7q, id=gntnhjnuneb8b7q
+2026-04-11T15:10:27.754Z - warn: Rendering request 2 finished with error in 4 ms rootId=gntnhjnuneb8b7q, id=gntnhjnuneb8b7q
+2026-04-11T15:10:27.756Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-04-11T15:11:04.469Z - info: Render request 3 queued for execution and waiting for available worker rootId=cclvl189hp3p5ry, id=cclvl189hp3p5ry
+2026-04-11T15:11:04.473Z - info: Starting rendering request 3 (user: admin) rootId=cclvl189hp3p5ry, id=cclvl189hp3p5ry
+2026-04-11T15:11:04.473Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=cclvl189hp3p5ry, id=cclvl189hp3p5ry
+2026-04-11T15:12:06.472Z - warn: Report render failed
+(because) report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/VSlTQefQxAtwYhtG
+Error: Report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/VSlTQefQxAtwYhtG
+    at Timeout.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/threadWorker.js:43:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) rootId=cclvl189hp3p5ry, id=cclvl189hp3p5ry
+2026-04-11T15:12:06.912Z - warn: Error during processing request at http://localhost:5488/api/report, details: Report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/VSlTQefQxAtwYhtG, stack: Error: Report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/VSlTQefQxAtwYhtG
+    at Timeout.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/threadWorker.js:43:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-04-11T15:12:28.062Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-04-11T15:12:28.064Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T15:12:28.068Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T15:12:28.071Z - info: Found 35 extension(s)
+2026-04-11T15:12:28.109Z - info: Using extension authentication@4.0.1
+2026-04-11T15:12:28.186Z - info: Using extension base@4.0.0
+2026-04-11T15:12:28.189Z - info: Using extension child-templates@4.0.0
+2026-04-11T15:12:28.190Z - info: Using extension cli@4.0.2
+2026-04-11T15:12:28.197Z - info: Using extension components@4.0.0
+2026-04-11T15:12:28.199Z - info: Using extension data@4.0.0
+2026-04-11T15:12:28.201Z - info: Using extension express@4.0.1
+2026-04-11T15:12:28.349Z - info: Using extension freeze@4.0.0
+2026-04-11T15:12:28.350Z - info: Using extension fs-store@4.0.1
+2026-04-11T15:12:28.422Z - info: Using extension handlebars@4.0.1
+2026-04-11T15:12:28.423Z - info: Using extension import-export@4.0.2
+2026-04-11T15:12:28.429Z - info: Using extension jsrender@4.0.0
+2026-04-11T15:12:28.429Z - info: Using extension licensing@4.0.1
+2026-04-11T15:12:28.441Z - info: Using extension localization@4.0.1
+2026-04-11T15:12:28.442Z - info: Using extension npm@4.0.0
+2026-04-11T15:12:28.444Z - info: Using extension pdf-utils@4.0.2
+2026-04-11T15:12:28.445Z - info: Using extension reports@4.0.0
+2026-04-11T15:12:28.447Z - info: Using extension tags@4.0.1
+2026-04-11T15:12:28.448Z - info: Using extension text@4.0.0
+2026-04-11T15:12:28.449Z - info: Using extension version-control@4.0.0
+2026-04-11T15:12:28.456Z - info: Using extension assets@4.0.2
+2026-04-11T15:12:28.472Z - info: Using extension authorization@4.0.0
+2026-04-11T15:12:28.476Z - info: Using extension browser-client@4.0.0
+2026-04-11T15:12:28.478Z - info: Using extension chrome-pdf@4.0.0
+2026-04-11T15:12:28.479Z - info: Using extension docx@4.1.1
+2026-04-11T15:12:28.480Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-11T15:12:28.670Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-11T15:12:28.670Z - info: Using extension pptx@4.1.0
+2026-04-11T15:12:28.671Z - info: Using extension scheduling@4.0.0
+2026-04-11T15:12:28.686Z - info: Using extension scripts@4.0.0
+2026-04-11T15:12:28.687Z - info: Using extension static-pdf@4.0.0
+2026-04-11T15:12:28.688Z - info: Using extension studio@4.0.2
+2026-04-11T15:12:28.742Z - info: Using extension xlsx@4.0.2
+2026-04-11T15:12:28.743Z - info: Using extension public-templates@4.0.0
+2026-04-11T15:12:28.744Z - info: Using extension sample-template@4.0.0
+2026-04-11T15:12:28.745Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-11T15:12:28.746Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-11T15:12:28.747Z - info: Using fs provider for template store.
+2026-04-11T15:12:28.750Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-11T15:12:28.754Z - info: fs store is loading data
+2026-04-11T15:12:28.771Z - info: fs store is initialized successfully
+2026-04-11T15:12:28.778Z - info: Creating default express app.
+2026-04-11T15:12:28.808Z - info: jsreport server successfully started on http port: 5488
+2026-04-11T15:12:28.809Z - info: Verifying license key free
+2026-04-11T15:12:28.809Z - info: Using free license
+2026-04-11T15:12:28.814Z - info: Initializing worker threads
+2026-04-11T15:12:29.255Z - info: 2 worker threads initialized in 441ms
+2026-04-11T15:12:29.255Z - info: Starting temp files cleanup with 180000ms threshold
+2026-04-11T15:12:29.256Z - info: reporter initialized
+2026-04-11T15:12:36.546Z - info: Render request 1 queued for execution and waiting for available worker rootId=pvv2erm8f3wqdu8, id=pvv2erm8f3wqdu8
+2026-04-11T15:12:36.578Z - info: Starting rendering request 1 (user: admin) rootId=pvv2erm8f3wqdu8, id=pvv2erm8f3wqdu8
+2026-04-11T15:12:36.578Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=pvv2erm8f3wqdu8, id=pvv2erm8f3wqdu8
+2026-04-11T15:12:37.648Z - error: Error when processing render request 1
+(because) user code threw with non-Error: {} rootId=pvv2erm8f3wqdu8, id=pvv2erm8f3wqdu8
+2026-04-11T15:12:37.649Z - error: Rendering request 1 finished with error in 1104 ms rootId=pvv2erm8f3wqdu8, id=pvv2erm8f3wqdu8
+2026-04-11T15:12:37.650Z - error: Error during processing request at http://localhost:5488/api/report
+2026-04-11T15:14:08.854Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-04-11T15:14:08.855Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T15:14:08.859Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T15:14:08.861Z - info: Found 35 extension(s)
+2026-04-11T15:14:08.900Z - info: Using extension authentication@4.0.1
+2026-04-11T15:14:09.100Z - info: Using extension base@4.0.0
+2026-04-11T15:14:09.103Z - info: Using extension child-templates@4.0.0
+2026-04-11T15:14:09.104Z - info: Using extension cli@4.0.2
+2026-04-11T15:14:09.106Z - info: Using extension components@4.0.0
+2026-04-11T15:14:09.107Z - info: Using extension data@4.0.0
+2026-04-11T15:14:09.110Z - info: Using extension express@4.0.1
+2026-04-11T15:14:09.415Z - info: Using extension freeze@4.0.0
+2026-04-11T15:14:09.416Z - info: Using extension fs-store@4.0.1
+2026-04-11T15:14:09.469Z - info: Using extension handlebars@4.0.1
+2026-04-11T15:14:09.470Z - info: Using extension import-export@4.0.2
+2026-04-11T15:14:09.477Z - info: Using extension jsrender@4.0.0
+2026-04-11T15:14:09.477Z - info: Using extension licensing@4.0.1
+2026-04-11T15:14:09.563Z - info: Using extension localization@4.0.1
+2026-04-11T15:14:09.564Z - info: Using extension npm@4.0.0
+2026-04-11T15:14:09.566Z - info: Using extension pdf-utils@4.0.2
+2026-04-11T15:14:09.567Z - info: Using extension reports@4.0.0
+2026-04-11T15:14:09.568Z - info: Using extension tags@4.0.1
+2026-04-11T15:14:09.569Z - info: Using extension text@4.0.0
+2026-04-11T15:14:09.570Z - info: Using extension version-control@4.0.0
+2026-04-11T15:14:09.577Z - info: Using extension assets@4.0.2
+2026-04-11T15:14:09.584Z - info: Using extension authorization@4.0.0
+2026-04-11T15:14:09.587Z - info: Using extension browser-client@4.0.0
+2026-04-11T15:14:09.589Z - info: Using extension chrome-pdf@4.0.0
+2026-04-11T15:14:09.592Z - info: Using extension docx@4.1.1
+2026-04-11T15:14:09.594Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-11T15:14:09.782Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-11T15:14:09.782Z - info: Using extension pptx@4.1.0
+2026-04-11T15:14:09.783Z - info: Using extension scheduling@4.0.0
+2026-04-11T15:14:09.816Z - info: Using extension scripts@4.0.0
+2026-04-11T15:14:09.816Z - info: Using extension static-pdf@4.0.0
+2026-04-11T15:14:09.817Z - info: Using extension studio@4.0.2
+2026-04-11T15:14:09.870Z - info: Using extension xlsx@4.0.2
+2026-04-11T15:14:09.871Z - info: Using extension public-templates@4.0.0
+2026-04-11T15:14:09.871Z - info: Using extension sample-template@4.0.0
+2026-04-11T15:14:09.872Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-11T15:14:09.873Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-11T15:14:09.873Z - info: Using fs provider for template store.
+2026-04-11T15:14:09.876Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-11T15:14:09.880Z - info: fs store is loading data
+2026-04-11T15:14:09.892Z - info: fs store is initialized successfully
+2026-04-11T15:14:09.901Z - info: Creating default express app.
+2026-04-11T15:14:10.562Z - info: jsreport server successfully started on http port: 5488
+2026-04-11T15:14:10.569Z - info: Verifying license key free
+2026-04-11T15:14:10.572Z - info: Using free license
+2026-04-11T15:14:10.648Z - info: Initializing worker threads
+2026-04-11T15:14:11.111Z - info: 2 worker threads initialized in 463ms
+2026-04-11T15:14:11.111Z - info: Starting temp files cleanup with 180000ms threshold
+2026-04-11T15:14:11.112Z - info: reporter initialized
+2026-04-11T15:14:55.939Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-04-11T15:14:55.941Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T15:14:55.946Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T15:14:55.952Z - info: Found 35 extension(s)
+2026-04-11T15:14:56.005Z - info: Using extension authentication@4.0.1
+2026-04-11T15:14:56.091Z - info: Using extension base@4.0.0
+2026-04-11T15:14:56.094Z - info: Using extension child-templates@4.0.0
+2026-04-11T15:14:56.096Z - info: Using extension cli@4.0.2
+2026-04-11T15:14:56.098Z - info: Using extension components@4.0.0
+2026-04-11T15:14:56.099Z - info: Using extension data@4.0.0
+2026-04-11T15:14:56.100Z - info: Using extension express@4.0.1
+2026-04-11T15:14:56.284Z - info: Using extension freeze@4.0.0
+2026-04-11T15:14:56.285Z - info: Using extension fs-store@4.0.1
+2026-04-11T15:14:56.348Z - info: Using extension handlebars@4.0.1
+2026-04-11T15:14:56.349Z - info: Using extension import-export@4.0.2
+2026-04-11T15:14:56.357Z - info: Using extension jsrender@4.0.0
+2026-04-11T15:14:56.358Z - info: Using extension licensing@4.0.1
+2026-04-11T15:14:56.390Z - info: Using extension localization@4.0.1
+2026-04-11T15:14:56.393Z - info: Using extension npm@4.0.0
+2026-04-11T15:14:56.395Z - info: Using extension pdf-utils@4.0.2
+2026-04-11T15:14:56.396Z - info: Using extension reports@4.0.0
+2026-04-11T15:14:56.397Z - info: Using extension tags@4.0.1
+2026-04-11T15:14:56.398Z - info: Using extension text@4.0.0
+2026-04-11T15:14:56.399Z - info: Using extension version-control@4.0.0
+2026-04-11T15:14:56.410Z - info: Using extension assets@4.0.2
+2026-04-11T15:14:56.415Z - info: Using extension authorization@4.0.0
+2026-04-11T15:14:56.418Z - info: Using extension browser-client@4.0.0
+2026-04-11T15:14:56.420Z - info: Using extension chrome-pdf@4.0.0
+2026-04-11T15:14:56.421Z - info: Using extension docx@4.1.1
+2026-04-11T15:14:56.422Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-11T15:14:56.659Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-11T15:14:56.660Z - info: Using extension pptx@4.1.0
+2026-04-11T15:14:56.661Z - info: Using extension scheduling@4.0.0
+2026-04-11T15:14:56.678Z - info: Using extension scripts@4.0.0
+2026-04-11T15:14:56.678Z - info: Using extension static-pdf@4.0.0
+2026-04-11T15:14:56.679Z - info: Using extension studio@4.0.2
+2026-04-11T15:14:56.741Z - info: Using extension xlsx@4.0.2
+2026-04-11T15:14:56.743Z - info: Using extension public-templates@4.0.0
+2026-04-11T15:14:56.744Z - info: Using extension sample-template@4.0.0
+2026-04-11T15:14:56.745Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-11T15:14:56.748Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-11T15:14:56.748Z - info: Using fs provider for template store.
+2026-04-11T15:14:56.750Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-11T15:14:56.756Z - info: fs store is loading data
+2026-04-11T15:14:56.770Z - info: fs store is initialized successfully
+2026-04-11T15:14:56.778Z - info: Creating default express app.
+2026-04-11T15:14:56.798Z - info: jsreport server successfully started on http port: 5488
+2026-04-11T15:14:56.799Z - info: Verifying license key free
+2026-04-11T15:14:56.799Z - info: Using free license
+2026-04-11T15:14:56.801Z - info: Initializing worker threads
+2026-04-11T15:14:57.363Z - info: 2 worker threads initialized in 562ms
+2026-04-11T15:14:57.364Z - info: Starting temp files cleanup with 180000ms threshold
+2026-04-11T15:14:57.364Z - info: reporter initialized
+2026-04-11T15:15:10.237Z - info: Render request 1 queued for execution and waiting for available worker rootId=ep4kaiilx4daa46, id=ep4kaiilx4daa46
+2026-04-11T15:15:10.307Z - info: Starting rendering request 1 (user: admin) rootId=ep4kaiilx4daa46, id=ep4kaiilx4daa46
+2026-04-11T15:15:10.308Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=ep4kaiilx4daa46, id=ep4kaiilx4daa46
+2026-04-11T15:15:11.541Z - error: Error when processing render request 1
+(because) user code threw with non-Error: {} rootId=ep4kaiilx4daa46, id=ep4kaiilx4daa46
+2026-04-11T15:15:11.542Z - error: Rendering request 1 finished with error in 1306 ms rootId=ep4kaiilx4daa46, id=ep4kaiilx4daa46
+2026-04-11T15:15:11.544Z - error: Error during processing request at http://localhost:5488/api/report
+2026-04-11T15:15:26.089Z - info: Render request 2 queued for execution and waiting for available worker rootId=y18og4fym4evxtc, id=y18og4fym4evxtc
+2026-04-11T15:15:26.094Z - info: Starting rendering request 2 (user: admin) rootId=y18og4fym4evxtc, id=y18og4fym4evxtc
+2026-04-11T15:15:26.094Z - warn: Error when processing render request 2
+(because) template must contains _id, name, shortid or content attribute
+Error: Template must contains _id, name, shortid or content attribute
+  at module.exports (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:14:24)
+  at ListenerCollection.fire (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:32)
+  at async beforeRender (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=y18og4fym4evxtc, id=y18og4fym4evxtc
+2026-04-11T15:15:26.094Z - warn: Rendering request 2 finished with error in 6 ms rootId=y18og4fym4evxtc, id=y18og4fym4evxtc
+2026-04-11T15:15:26.096Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-04-11T15:15:39.273Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-04-11T15:15:39.274Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T15:15:39.278Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-11T15:15:39.288Z - info: Found 35 extension(s)
+2026-04-11T15:15:39.336Z - info: Using extension authentication@4.0.1
+2026-04-11T15:15:39.405Z - info: Using extension base@4.0.0
+2026-04-11T15:15:39.408Z - info: Using extension child-templates@4.0.0
+2026-04-11T15:15:39.408Z - info: Using extension cli@4.0.2
+2026-04-11T15:15:39.410Z - info: Using extension components@4.0.0
+2026-04-11T15:15:39.410Z - info: Using extension data@4.0.0
+2026-04-11T15:15:39.411Z - info: Using extension express@4.0.1
+2026-04-11T15:15:39.535Z - info: Using extension freeze@4.0.0
+2026-04-11T15:15:39.536Z - info: Using extension fs-store@4.0.1
+2026-04-11T15:15:39.581Z - info: Using extension handlebars@4.0.1
+2026-04-11T15:15:39.582Z - info: Using extension import-export@4.0.2
+2026-04-11T15:15:39.586Z - info: Using extension jsrender@4.0.0
+2026-04-11T15:15:39.586Z - info: Using extension licensing@4.0.1
+2026-04-11T15:15:39.595Z - info: Using extension localization@4.0.1
+2026-04-11T15:15:39.596Z - info: Using extension npm@4.0.0
+2026-04-11T15:15:39.597Z - info: Using extension pdf-utils@4.0.2
+2026-04-11T15:15:39.598Z - info: Using extension reports@4.0.0
+2026-04-11T15:15:39.599Z - info: Using extension tags@4.0.1
+2026-04-11T15:15:39.600Z - info: Using extension text@4.0.0
+2026-04-11T15:15:39.600Z - info: Using extension version-control@4.0.0
+2026-04-11T15:15:39.605Z - info: Using extension assets@4.0.2
+2026-04-11T15:15:39.610Z - info: Using extension authorization@4.0.0
+2026-04-11T15:15:39.612Z - info: Using extension browser-client@4.0.0
+2026-04-11T15:15:39.613Z - info: Using extension chrome-pdf@4.0.0
+2026-04-11T15:15:39.615Z - info: Using extension docx@4.1.1
+2026-04-11T15:15:39.616Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-11T15:15:39.801Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-11T15:15:39.801Z - info: Using extension pptx@4.1.0
+2026-04-11T15:15:39.802Z - info: Using extension scheduling@4.0.0
+2026-04-11T15:15:39.819Z - info: Using extension scripts@4.0.0
+2026-04-11T15:15:39.820Z - info: Using extension static-pdf@4.0.0
+2026-04-11T15:15:39.821Z - info: Using extension studio@4.0.2
+2026-04-11T15:15:39.867Z - info: Using extension xlsx@4.0.2
+2026-04-11T15:15:39.868Z - info: Using extension public-templates@4.0.0
+2026-04-11T15:15:39.869Z - info: Using extension sample-template@4.0.0
+2026-04-11T15:15:39.869Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-11T15:15:39.870Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-11T15:15:39.870Z - info: Using fs provider for template store.
+2026-04-11T15:15:39.873Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-11T15:15:39.875Z - info: fs store is loading data
+2026-04-11T15:15:39.887Z - info: fs store is initialized successfully
+2026-04-11T15:15:39.893Z - info: Creating default express app.
+2026-04-11T15:15:39.906Z - info: jsreport server successfully started on http port: 5488
+2026-04-11T15:15:39.906Z - info: Verifying license key free
+2026-04-11T15:15:39.907Z - info: Using free license
+2026-04-11T15:15:39.909Z - info: Initializing worker threads
+2026-04-11T15:15:40.263Z - info: 2 worker threads initialized in 354ms
+2026-04-11T15:15:40.263Z - info: Starting temp files cleanup with 180000ms threshold
+2026-04-11T15:15:40.263Z - info: reporter initialized
+2026-04-11T15:15:48.026Z - info: Render request 1 queued for execution and waiting for available worker rootId=mvsqz8tqgumvsev, id=mvsqz8tqgumvsev
+2026-04-11T15:15:48.057Z - info: Starting rendering request 1 (user: admin) rootId=mvsqz8tqgumvsev, id=mvsqz8tqgumvsev
+2026-04-11T15:15:48.057Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=mvsqz8tqgumvsev, id=mvsqz8tqgumvsev
+2026-04-11T15:15:49.062Z - error: Error when processing render request 1
+(because) user code threw with non-Error: {} rootId=mvsqz8tqgumvsev, id=mvsqz8tqgumvsev
+2026-04-11T15:15:49.063Z - error: Rendering request 1 finished with error in 1037 ms rootId=mvsqz8tqgumvsev, id=mvsqz8tqgumvsev
+2026-04-11T15:15:49.065Z - error: Error during processing request at http://localhost:5488/api/report
+2026-04-12T07:47:00.194Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-04-12T07:47:00.195Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-12T07:47:00.203Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-12T07:47:00.208Z - info: Found 35 extension(s)
+2026-04-12T07:47:00.246Z - info: Using extension authentication@4.0.1
+2026-04-12T07:47:00.337Z - info: Using extension base@4.0.0
+2026-04-12T07:47:00.339Z - info: Using extension child-templates@4.0.0
+2026-04-12T07:47:00.340Z - info: Using extension cli@4.0.2
+2026-04-12T07:47:00.341Z - info: Using extension components@4.0.0
+2026-04-12T07:47:00.342Z - info: Using extension data@4.0.0
+2026-04-12T07:47:00.343Z - info: Using extension express@4.0.1
+2026-04-12T07:47:00.499Z - info: Using extension freeze@4.0.0
+2026-04-12T07:47:00.500Z - info: Using extension fs-store@4.0.1
+2026-04-12T07:47:00.559Z - info: Using extension handlebars@4.0.1
+2026-04-12T07:47:00.560Z - info: Using extension import-export@4.0.2
+2026-04-12T07:47:00.565Z - info: Using extension jsrender@4.0.0
+2026-04-12T07:47:00.566Z - info: Using extension licensing@4.0.1
+2026-04-12T07:47:00.578Z - info: Using extension localization@4.0.1
+2026-04-12T07:47:00.579Z - info: Using extension npm@4.0.0
+2026-04-12T07:47:00.580Z - info: Using extension pdf-utils@4.0.2
+2026-04-12T07:47:00.581Z - info: Using extension reports@4.0.0
+2026-04-12T07:47:00.582Z - info: Using extension tags@4.0.1
+2026-04-12T07:47:00.583Z - info: Using extension text@4.0.0
+2026-04-12T07:47:00.583Z - info: Using extension version-control@4.0.0
+2026-04-12T07:47:00.590Z - info: Using extension assets@4.0.2
+2026-04-12T07:47:00.595Z - info: Using extension authorization@4.0.0
+2026-04-12T07:47:00.596Z - info: Using extension browser-client@4.0.0
+2026-04-12T07:47:00.598Z - info: Using extension chrome-pdf@4.0.0
+2026-04-12T07:47:00.599Z - info: Using extension docx@4.1.1
+2026-04-12T07:47:00.600Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-12T07:47:00.773Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-12T07:47:00.773Z - info: Using extension pptx@4.1.0
+2026-04-12T07:47:00.774Z - info: Using extension scheduling@4.0.0
+2026-04-12T07:47:00.791Z - info: Using extension scripts@4.0.0
+2026-04-12T07:47:00.791Z - info: Using extension static-pdf@4.0.0
+2026-04-12T07:47:00.792Z - info: Using extension studio@4.0.2
+2026-04-12T07:47:00.875Z - info: Using extension xlsx@4.0.2
+2026-04-12T07:47:00.877Z - info: Using extension public-templates@4.0.0
+2026-04-12T07:47:00.877Z - info: Using extension sample-template@4.0.0
+2026-04-12T07:47:00.878Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-12T07:47:00.880Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-12T07:47:00.880Z - info: Using fs provider for template store.
+2026-04-12T07:47:00.882Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-12T07:47:00.886Z - info: fs store is loading data
+2026-04-12T07:47:00.898Z - info: fs store is initialized successfully
+2026-04-12T07:47:00.903Z - info: Creating default express app.
+2026-04-12T07:47:00.918Z - info: jsreport server successfully started on http port: 5488
+2026-04-12T07:47:00.919Z - info: Verifying license key free
+2026-04-12T07:47:00.919Z - info: Using free license
+2026-04-12T07:47:00.921Z - info: Initializing worker threads
+2026-04-12T07:47:01.258Z - info: 2 worker threads initialized in 337ms
+2026-04-12T07:47:01.258Z - info: Starting temp files cleanup with 180000ms threshold
+2026-04-12T07:47:01.258Z - info: reporter initialized
+2026-04-12T07:47:19.086Z - info: Render request 1 queued for execution and waiting for available worker rootId=pybrunouiwo1hrr, id=pybrunouiwo1hrr
+2026-04-12T07:47:19.096Z - info: Starting rendering request 1 (user: admin) rootId=pybrunouiwo1hrr, id=pybrunouiwo1hrr
+2026-04-12T07:47:19.096Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: none } rootId=pybrunouiwo1hrr, id=pybrunouiwo1hrr
+2026-04-12T07:47:21.422Z - error: Error when processing render request 1
+(because) user code threw with non-Error: {} rootId=pybrunouiwo1hrr, id=pybrunouiwo1hrr
+2026-04-12T07:47:21.422Z - error: Rendering request 1 finished with error in 2337 ms rootId=pybrunouiwo1hrr, id=pybrunouiwo1hrr
+2026-04-12T07:47:21.424Z - error: Error during processing request at http://localhost:5488/api/report
+2026-04-12T07:48:24.521Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-04-12T07:48:24.523Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-12T07:48:24.527Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-12T07:48:24.529Z - info: Found 35 extension(s)
+2026-04-12T07:48:24.596Z - info: Using extension authentication@4.0.1
+2026-04-12T07:48:24.679Z - info: Using extension base@4.0.0
+2026-04-12T07:48:24.681Z - info: Using extension child-templates@4.0.0
+2026-04-12T07:48:24.681Z - info: Using extension cli@4.0.2
+2026-04-12T07:48:24.683Z - info: Using extension components@4.0.0
+2026-04-12T07:48:24.683Z - info: Using extension data@4.0.0
+2026-04-12T07:48:24.684Z - info: Using extension express@4.0.1
+2026-04-12T07:48:24.830Z - info: Using extension freeze@4.0.0
+2026-04-12T07:48:24.831Z - info: Using extension fs-store@4.0.1
+2026-04-12T07:48:24.874Z - info: Using extension handlebars@4.0.1
+2026-04-12T07:48:24.875Z - info: Using extension import-export@4.0.2
+2026-04-12T07:48:24.879Z - info: Using extension jsrender@4.0.0
+2026-04-12T07:48:24.879Z - info: Using extension licensing@4.0.1
+2026-04-12T07:48:24.889Z - info: Using extension localization@4.0.1
+2026-04-12T07:48:24.890Z - info: Using extension npm@4.0.0
+2026-04-12T07:48:24.891Z - info: Using extension pdf-utils@4.0.2
+2026-04-12T07:48:24.892Z - info: Using extension reports@4.0.0
+2026-04-12T07:48:24.893Z - info: Using extension tags@4.0.1
+2026-04-12T07:48:24.893Z - info: Using extension text@4.0.0
+2026-04-12T07:48:24.894Z - info: Using extension version-control@4.0.0
+2026-04-12T07:48:24.899Z - info: Using extension assets@4.0.2
+2026-04-12T07:48:24.904Z - info: Using extension authorization@4.0.0
+2026-04-12T07:48:24.906Z - info: Using extension browser-client@4.0.0
+2026-04-12T07:48:24.907Z - info: Using extension chrome-pdf@4.0.0
+2026-04-12T07:48:24.908Z - info: Using extension docx@4.1.1
+2026-04-12T07:48:24.909Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-12T07:48:25.054Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-12T07:48:25.054Z - info: Using extension pptx@4.1.0
+2026-04-12T07:48:25.056Z - info: Using extension scheduling@4.0.0
+2026-04-12T07:48:25.074Z - info: Using extension scripts@4.0.0
+2026-04-12T07:48:25.074Z - info: Using extension static-pdf@4.0.0
+2026-04-12T07:48:25.074Z - info: Using extension studio@4.0.2
+2026-04-12T07:48:25.119Z - info: Using extension xlsx@4.0.2
+2026-04-12T07:48:25.120Z - info: Using extension public-templates@4.0.0
+2026-04-12T07:48:25.120Z - info: Using extension sample-template@4.0.0
+2026-04-12T07:48:25.121Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-12T07:48:25.121Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-12T07:48:25.121Z - info: Using fs provider for template store.
+2026-04-12T07:48:25.125Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-12T07:48:25.127Z - info: fs store is loading data
+2026-04-12T07:48:25.136Z - info: fs store is initialized successfully
+2026-04-12T07:48:25.141Z - info: Creating default express app.
+2026-04-12T07:48:25.154Z - info: jsreport server successfully started on http port: 5488
+2026-04-12T07:48:25.155Z - info: Verifying license key free
+2026-04-12T07:48:25.155Z - info: Using free license
+2026-04-12T07:48:25.157Z - info: Initializing worker threads
+2026-04-12T07:48:25.521Z - info: 2 worker threads initialized in 364ms
+2026-04-12T07:48:25.522Z - info: Starting temp files cleanup with 180000ms threshold
+2026-04-12T07:48:25.522Z - info: reporter initialized
+2026-04-12T07:48:33.315Z - info: Render request 1 queued for execution and waiting for available worker rootId=tukois0zkbx7mfy, id=tukois0zkbx7mfy
+2026-04-12T07:48:33.326Z - info: Starting rendering request 1 (user: admin) rootId=tukois0zkbx7mfy, id=tukois0zkbx7mfy
+2026-04-12T07:48:33.326Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: none } rootId=tukois0zkbx7mfy, id=tukois0zkbx7mfy
+2026-04-12T07:48:35.856Z - info: Rendering request 1 finished in 2542 ms rootId=tukois0zkbx7mfy, id=tukois0zkbx7mfy
+2026-04-12T07:48:52.286Z - info: Render request 2 queued for execution and waiting for available worker rootId=qvf5cw6rla56hcx, id=qvf5cw6rla56hcx
+2026-04-12T07:48:52.314Z - info: Starting rendering request 2 (user: admin) rootId=qvf5cw6rla56hcx, id=qvf5cw6rla56hcx
+2026-04-12T07:48:52.314Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=qvf5cw6rla56hcx, id=qvf5cw6rla56hcx
+2026-04-12T07:48:54.955Z - info: Rendering request 2 finished in 2668 ms rootId=qvf5cw6rla56hcx, id=qvf5cw6rla56hcx
+2026-04-12T07:50:07.812Z - info: Render request 3 queued for execution and waiting for available worker rootId=s2bd5xnynhj05yx, id=s2bd5xnynhj05yx
+2026-04-12T07:50:07.835Z - info: Starting rendering request 3 (user: admin) rootId=s2bd5xnynhj05yx, id=s2bd5xnynhj05yx
+2026-04-12T07:50:07.836Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=s2bd5xnynhj05yx, id=s2bd5xnynhj05yx
+2026-04-12T07:50:09.857Z - info: Rendering request 3 finished in 2045 ms rootId=s2bd5xnynhj05yx, id=s2bd5xnynhj05yx
+2026-04-12T07:50:25.630Z - info: Render request 4 queued for execution and waiting for available worker rootId=02rw04gmv1ezqw0, id=02rw04gmv1ezqw0
+2026-04-12T07:50:25.633Z - info: Starting rendering request 4 (user: admin) rootId=02rw04gmv1ezqw0, id=02rw04gmv1ezqw0
+2026-04-12T07:50:25.633Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=02rw04gmv1ezqw0, id=02rw04gmv1ezqw0
+2026-04-12T07:50:27.527Z - info: Rendering request 4 finished in 1897 ms rootId=02rw04gmv1ezqw0, id=02rw04gmv1ezqw0
+2026-04-12T07:50:55.121Z - info: Render request 5 queued for execution and waiting for available worker rootId=nw0pklolx1a4bv2, id=nw0pklolx1a4bv2
+2026-04-12T07:50:55.124Z - info: Starting rendering request 5 (user: admin) rootId=nw0pklolx1a4bv2, id=nw0pklolx1a4bv2
+2026-04-12T07:50:55.124Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=nw0pklolx1a4bv2, id=nw0pklolx1a4bv2
+2026-04-12T07:50:57.631Z - info: Rendering request 5 finished in 2510 ms rootId=nw0pklolx1a4bv2, id=nw0pklolx1a4bv2
+2026-04-12T09:24:46.181Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-04-12T09:24:46.187Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-12T09:24:46.195Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-12T09:24:46.200Z - info: Found 35 extension(s)
+2026-04-12T09:24:46.250Z - info: Using extension authentication@4.0.1
+2026-04-12T09:24:46.361Z - info: Using extension base@4.0.0
+2026-04-12T09:24:46.363Z - info: Using extension child-templates@4.0.0
+2026-04-12T09:24:46.364Z - info: Using extension cli@4.0.2
+2026-04-12T09:24:46.365Z - info: Using extension components@4.0.0
+2026-04-12T09:24:46.366Z - info: Using extension data@4.0.0
+2026-04-12T09:24:46.367Z - info: Using extension express@4.0.1
+2026-04-12T09:24:46.536Z - info: Using extension freeze@4.0.0
+2026-04-12T09:24:46.537Z - info: Using extension fs-store@4.0.1
+2026-04-12T09:24:46.610Z - info: Using extension handlebars@4.0.1
+2026-04-12T09:24:46.612Z - info: Using extension import-export@4.0.2
+2026-04-12T09:24:46.626Z - info: Using extension jsrender@4.0.0
+2026-04-12T09:24:46.627Z - info: Using extension licensing@4.0.1
+2026-04-12T09:24:46.642Z - info: Using extension localization@4.0.1
+2026-04-12T09:24:46.643Z - info: Using extension npm@4.0.0
+2026-04-12T09:24:46.645Z - info: Using extension pdf-utils@4.0.2
+2026-04-12T09:24:46.646Z - info: Using extension reports@4.0.0
+2026-04-12T09:24:46.647Z - info: Using extension tags@4.0.1
+2026-04-12T09:24:46.647Z - info: Using extension text@4.0.0
+2026-04-12T09:24:46.648Z - info: Using extension version-control@4.0.0
+2026-04-12T09:24:46.656Z - info: Using extension assets@4.0.2
+2026-04-12T09:24:46.662Z - info: Using extension authorization@4.0.0
+2026-04-12T09:24:46.664Z - info: Using extension browser-client@4.0.0
+2026-04-12T09:24:46.666Z - info: Using extension chrome-pdf@4.0.0
+2026-04-12T09:24:46.667Z - info: Using extension docx@4.1.1
+2026-04-12T09:24:46.668Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-12T09:24:46.874Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-12T09:24:46.874Z - info: Using extension pptx@4.1.0
+2026-04-12T09:24:46.875Z - info: Using extension scheduling@4.0.0
+2026-04-12T09:24:46.894Z - info: Using extension scripts@4.0.0
+2026-04-12T09:24:46.894Z - info: Using extension static-pdf@4.0.0
+2026-04-12T09:24:46.895Z - info: Using extension studio@4.0.2
+2026-04-12T09:24:46.967Z - info: Using extension xlsx@4.0.2
+2026-04-12T09:24:46.968Z - info: Using extension public-templates@4.0.0
+2026-04-12T09:24:46.969Z - info: Using extension sample-template@4.0.0
+2026-04-12T09:24:46.970Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-12T09:24:46.971Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-12T09:24:46.971Z - info: Using fs provider for template store.
+2026-04-12T09:24:46.973Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-12T09:24:46.976Z - info: fs store is loading data
+2026-04-12T09:24:46.989Z - info: fs store is initialized successfully
+2026-04-12T09:24:46.997Z - info: Creating default express app.
+2026-04-12T09:24:47.032Z - info: jsreport server successfully started on http port: 5488
+2026-04-12T09:24:47.033Z - info: Verifying license key free
+2026-04-12T09:24:47.033Z - info: Using free license
+2026-04-12T09:24:47.036Z - info: Initializing worker threads
+2026-04-12T09:24:47.484Z - info: 2 worker threads initialized in 448ms
+2026-04-12T09:24:47.484Z - info: Starting temp files cleanup with 180000ms threshold
+2026-04-12T09:24:47.485Z - info: reporter initialized
+2026-04-12T09:25:37.660Z - info: Render request 1 queued for execution and waiting for available worker rootId=kfvckep001lhqtm, id=kfvckep001lhqtm
+2026-04-12T09:25:37.688Z - info: Starting rendering request 1 (user: admin) rootId=kfvckep001lhqtm, id=kfvckep001lhqtm
+2026-04-12T09:25:37.688Z - warn: Error when processing render request 1
+(because) template must contains _id, name, shortid or content attribute
+Error: Template must contains _id, name, shortid or content attribute
+  at module.exports (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:14:24)
+  at ListenerCollection.fire (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:32)
+  at async beforeRender (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=kfvckep001lhqtm, id=kfvckep001lhqtm
+2026-04-12T09:25:37.688Z - warn: Rendering request 1 finished with error in 26 ms rootId=kfvckep001lhqtm, id=kfvckep001lhqtm
+2026-04-12T09:25:37.691Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-04-12T09:25:42.803Z - info: Render request 2 queued for execution and waiting for available worker rootId=164ubcxc0vaxvnl, id=164ubcxc0vaxvnl
+2026-04-12T09:25:42.808Z - info: Starting rendering request 2 (user: admin) rootId=164ubcxc0vaxvnl, id=164ubcxc0vaxvnl
+2026-04-12T09:25:42.809Z - warn: Error when processing render request 2
+(because) template must contains _id, name, shortid or content attribute
+Error: Template must contains _id, name, shortid or content attribute
+  at module.exports (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:14:24)
+  at ListenerCollection.fire (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:32)
+  at async beforeRender (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=164ubcxc0vaxvnl, id=164ubcxc0vaxvnl
+2026-04-12T09:25:42.809Z - warn: Rendering request 2 finished with error in 5 ms rootId=164ubcxc0vaxvnl, id=164ubcxc0vaxvnl
+2026-04-12T09:25:42.810Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-04-12T09:28:25.959Z - info: Render request 3 queued for execution and waiting for available worker rootId=8549fweanjqprv6, id=8549fweanjqprv6
+2026-04-12T09:28:25.987Z - info: Starting rendering request 3 (user: admin) rootId=8549fweanjqprv6, id=8549fweanjqprv6
+2026-04-12T09:28:25.987Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=8549fweanjqprv6, id=8549fweanjqprv6
+2026-04-12T09:28:28.104Z - info: Rendering request 3 finished in 2146 ms rootId=8549fweanjqprv6, id=8549fweanjqprv6
+2026-04-24T03:37:00.616Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 24.3.0)
+2026-04-24T03:37:00.618Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-24T03:37:00.619Z - info: Extensions location cache not found, crawling directories
+2026-04-24T03:37:01.156Z - info: Found 35 extension(s)
+2026-04-24T03:37:01.196Z - info: Using extension authentication@4.0.1
+2026-04-24T03:37:01.284Z - info: Using extension base@4.0.0
+2026-04-24T03:37:01.287Z - info: Using extension child-templates@4.0.0
+2026-04-24T03:37:01.288Z - info: Using extension cli@4.0.2
+2026-04-24T03:37:01.289Z - info: Using extension components@4.0.0
+2026-04-24T03:37:01.289Z - info: Using extension data@4.0.0
+2026-04-24T03:37:01.290Z - info: Using extension express@4.0.1
+2026-04-24T03:37:01.432Z - info: Using extension freeze@4.0.0
+2026-04-24T03:37:01.433Z - info: Using extension fs-store@4.0.1
+2026-04-24T03:37:01.513Z - info: Using extension handlebars@4.0.1
+2026-04-24T03:37:01.514Z - info: Using extension import-export@4.0.2
+2026-04-24T03:37:01.519Z - info: Using extension jsrender@4.0.0
+2026-04-24T03:37:01.519Z - info: Using extension licensing@4.0.1
+2026-04-24T03:37:01.530Z - info: Using extension localization@4.0.1
+2026-04-24T03:37:01.530Z - info: Using extension npm@4.0.0
+2026-04-24T03:37:01.531Z - info: Using extension pdf-utils@4.0.2
+2026-04-24T03:37:01.532Z - info: Using extension reports@4.0.0
+2026-04-24T03:37:01.533Z - info: Using extension tags@4.0.1
+2026-04-24T03:37:01.533Z - info: Using extension text@4.0.0
+2026-04-24T03:37:01.534Z - info: Using extension version-control@4.0.0
+2026-04-24T03:37:01.540Z - info: Using extension assets@4.0.2
+2026-04-24T03:37:01.545Z - info: Using extension authorization@4.0.0
+2026-04-24T03:37:01.547Z - info: Using extension browser-client@4.0.0
+2026-04-24T03:37:01.548Z - info: Using extension chrome-pdf@4.0.0
+2026-04-24T03:37:01.550Z - info: Using extension docx@4.1.1
+2026-04-24T03:37:01.551Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-24T03:37:01.727Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-24T03:37:01.729Z - info: Using extension pptx@4.1.0
+2026-04-24T03:37:01.730Z - info: Using extension scheduling@4.0.0
+2026-04-24T03:37:01.745Z - info: Using extension scripts@4.0.0
+2026-04-24T03:37:01.746Z - info: Using extension static-pdf@4.0.0
+2026-04-24T03:37:01.746Z - info: Using extension studio@4.0.2
+2026-04-24T03:37:01.803Z - info: Using extension xlsx@4.0.2
+2026-04-24T03:37:01.804Z - info: Using extension public-templates@4.0.0
+2026-04-24T03:37:01.805Z - info: Using extension sample-template@4.0.0
+2026-04-24T03:37:01.805Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-24T03:37:01.806Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-24T03:37:01.806Z - info: Using fs provider for template store.
+2026-04-24T03:37:01.809Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-24T03:37:01.814Z - info: fs store is loading data
+2026-04-24T03:37:01.827Z - info: fs store is initialized successfully
+2026-04-24T03:37:01.832Z - info: Creating default express app.
+2026-04-24T03:37:01.868Z - info: jsreport server successfully started on http port: 5488
+2026-04-24T03:37:01.869Z - info: Verifying license key free
+2026-04-24T03:37:01.869Z - info: Using free license
+2026-04-24T03:37:01.872Z - info: Initializing worker threads
+2026-04-24T03:37:02.243Z - error: Error occurred during reporter init: TypeError: Accessor not expected at intrinsics.%IteratorPrototype%.constructor
+  at isAllowedProperty (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4029:13)
+  at visitProperties (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4076:26)
+  at isAllowedPropertyValue (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:3963:7)
+  at isAllowedProperty (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4026:14)
+  at visitProperties (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4076:26)
+  at whitelistIntrinsics (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4119:3)
+  at repairIntrinsics (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:9808:3)
+  at globalThis.lockdown (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:9897:28)
+  at WorkerReporter.init (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:88:7)
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17)
+2026-04-24T03:40:31.978Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.19.3)
+2026-04-24T03:40:31.983Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-24T03:40:31.987Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-24T03:40:31.990Z - info: Found 35 extension(s)
+2026-04-24T03:40:32.056Z - info: Using extension authentication@4.0.1
+2026-04-24T03:40:32.145Z - info: Using extension base@4.0.0
+2026-04-24T03:40:32.148Z - info: Using extension child-templates@4.0.0
+2026-04-24T03:40:32.149Z - info: Using extension cli@4.0.2
+2026-04-24T03:40:32.151Z - info: Using extension components@4.0.0
+2026-04-24T03:40:32.151Z - info: Using extension data@4.0.0
+2026-04-24T03:40:32.152Z - info: Using extension express@4.0.1
+2026-04-24T03:40:32.285Z - info: Using extension freeze@4.0.0
+2026-04-24T03:40:32.285Z - info: Using extension fs-store@4.0.1
+2026-04-24T03:40:32.357Z - info: Using extension handlebars@4.0.1
+2026-04-24T03:40:32.358Z - info: Using extension import-export@4.0.2
+2026-04-24T03:40:32.363Z - info: Using extension jsrender@4.0.0
+2026-04-24T03:40:32.364Z - info: Using extension licensing@4.0.1
+2026-04-24T03:40:32.377Z - info: Using extension localization@4.0.1
+2026-04-24T03:40:32.377Z - info: Using extension npm@4.0.0
+2026-04-24T03:40:32.379Z - info: Using extension pdf-utils@4.0.2
+2026-04-24T03:40:32.380Z - info: Using extension reports@4.0.0
+2026-04-24T03:40:32.381Z - info: Using extension tags@4.0.1
+2026-04-24T03:40:32.382Z - info: Using extension text@4.0.0
+2026-04-24T03:40:32.382Z - info: Using extension version-control@4.0.0
+2026-04-24T03:40:32.389Z - info: Using extension assets@4.0.2
+2026-04-24T03:40:32.395Z - info: Using extension authorization@4.0.0
+2026-04-24T03:40:32.397Z - info: Using extension browser-client@4.0.0
+2026-04-24T03:40:32.399Z - info: Using extension chrome-pdf@4.0.0
+2026-04-24T03:40:32.400Z - info: Using extension docx@4.1.1
+2026-04-24T03:40:32.401Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-24T03:40:32.592Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-24T03:40:32.593Z - info: Using extension pptx@4.1.0
+2026-04-24T03:40:32.594Z - info: Using extension scheduling@4.0.0
+2026-04-24T03:40:32.615Z - info: Using extension scripts@4.0.0
+2026-04-24T03:40:32.616Z - info: Using extension static-pdf@4.0.0
+2026-04-24T03:40:32.617Z - info: Using extension studio@4.0.2
+2026-04-24T03:40:32.673Z - info: Using extension xlsx@4.0.2
+2026-04-24T03:40:32.674Z - info: Using extension public-templates@4.0.0
+2026-04-24T03:40:32.675Z - info: Using extension sample-template@4.0.0
+2026-04-24T03:40:32.676Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-24T03:40:32.677Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-24T03:40:32.677Z - info: Using fs provider for template store.
+2026-04-24T03:40:32.679Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-24T03:40:32.687Z - info: fs store is loading data
+2026-04-24T03:40:32.700Z - info: fs store is initialized successfully
+2026-04-24T03:40:32.707Z - info: Creating default express app.
+2026-04-24T03:40:32.722Z - info: jsreport server successfully started on http port: 5488
+2026-04-24T03:40:32.723Z - info: Verifying license key free
+2026-04-24T03:40:32.724Z - info: Using free license
+2026-04-24T03:40:32.726Z - info: Initializing worker threads
+2026-04-24T03:40:33.151Z - info: 2 worker threads initialized in 425ms
+2026-04-24T03:40:33.151Z - info: Starting temp files cleanup with 180000ms threshold
+2026-04-24T03:40:33.151Z - info: reporter initialized
+2026-04-24T03:43:13.328Z - info: Render request 1 queued for execution and waiting for available worker rootId=30x0ntbiuqlo9mq, id=30x0ntbiuqlo9mq
+2026-04-24T03:43:13.341Z - info: Starting rendering request 1 (user: admin) rootId=30x0ntbiuqlo9mq, id=30x0ntbiuqlo9mq
+2026-04-24T03:43:13.341Z - warn: Error when processing render request 1
+(because) template must contains _id, name, shortid or content attribute
+Error: Template must contains _id, name, shortid or content attribute
+  at module.exports (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:14:24)
+  at ListenerCollection.fire (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:32)
+  at async beforeRender (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=30x0ntbiuqlo9mq, id=30x0ntbiuqlo9mq
+2026-04-24T03:43:13.341Z - warn: Rendering request 1 finished with error in 13 ms rootId=30x0ntbiuqlo9mq, id=30x0ntbiuqlo9mq
+2026-04-24T03:43:13.342Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-04-24T03:46:04.331Z - info: Render request 2 queued for execution and waiting for available worker rootId=0fypmpowclrcgik, id=0fypmpowclrcgik
+2026-04-24T03:46:04.356Z - info: Starting rendering request 2 (user: admin) rootId=0fypmpowclrcgik, id=0fypmpowclrcgik
+2026-04-24T03:46:04.356Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=0fypmpowclrcgik, id=0fypmpowclrcgik
+2026-04-24T03:46:11.276Z - info: Rendering request 2 finished in 6945 ms rootId=0fypmpowclrcgik, id=0fypmpowclrcgik
+2026-04-24T03:47:56.159Z - info: Render request 3 queued for execution and waiting for available worker rootId=ndiv6ilnwzco4rc, id=ndiv6ilnwzco4rc
+2026-04-24T03:47:56.185Z - info: Starting rendering request 3 (user: admin) rootId=ndiv6ilnwzco4rc, id=ndiv6ilnwzco4rc
+2026-04-24T03:47:56.185Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=ndiv6ilnwzco4rc, id=ndiv6ilnwzco4rc
+2026-04-24T03:47:58.898Z - info: Rendering request 3 finished in 2738 ms rootId=ndiv6ilnwzco4rc, id=ndiv6ilnwzco4rc
+2026-04-24T03:49:35.992Z - info: Render request 4 queued for execution and waiting for available worker rootId=rgr7dnfpw9789lr, id=rgr7dnfpw9789lr
+2026-04-24T03:49:35.995Z - info: Starting rendering request 4 (user: admin) rootId=rgr7dnfpw9789lr, id=rgr7dnfpw9789lr
+2026-04-24T03:49:35.995Z - warn: Error when processing render request 4
+(because) template must contains _id, name, shortid or content attribute
+Error: Template must contains _id, name, shortid or content attribute
+  at module.exports (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:14:24)
+  at ListenerCollection.fire (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:32)
+  at async beforeRender (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=rgr7dnfpw9789lr, id=rgr7dnfpw9789lr
+2026-04-24T03:49:35.995Z - warn: Rendering request 4 finished with error in 2 ms rootId=rgr7dnfpw9789lr, id=rgr7dnfpw9789lr
+2026-04-24T03:49:35.995Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-04-24T03:51:01.589Z - info: Render request 5 queued for execution and waiting for available worker rootId=12zw4jluh39bxrc, id=12zw4jluh39bxrc
+2026-04-24T03:51:01.591Z - info: Starting rendering request 5 (user: admin) rootId=12zw4jluh39bxrc, id=12zw4jluh39bxrc
+2026-04-24T03:51:01.591Z - warn: Error when processing render request 5
+(because) template must contains _id, name, shortid or content attribute
+Error: Template must contains _id, name, shortid or content attribute
+  at module.exports (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:14:24)
+  at ListenerCollection.fire (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:32)
+  at async beforeRender (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=12zw4jluh39bxrc, id=12zw4jluh39bxrc
+2026-04-24T03:51:01.591Z - warn: Rendering request 5 finished with error in 3 ms rootId=12zw4jluh39bxrc, id=12zw4jluh39bxrc
+2026-04-24T03:51:01.592Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-04-24T03:58:48.771Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.19.3)
+2026-04-24T03:58:48.773Z - info: Searching for available extensions in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-24T03:58:48.777Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/luchtithvichea/Desktop/Testing/POS/report-v3/
+2026-04-24T03:58:48.782Z - info: Found 35 extension(s)
+2026-04-24T03:58:48.827Z - info: Using extension authentication@4.0.1
+2026-04-24T03:58:48.918Z - info: Using extension base@4.0.0
+2026-04-24T03:58:48.921Z - info: Using extension child-templates@4.0.0
+2026-04-24T03:58:48.922Z - info: Using extension cli@4.0.2
+2026-04-24T03:58:48.923Z - info: Using extension components@4.0.0
+2026-04-24T03:58:48.924Z - info: Using extension data@4.0.0
+2026-04-24T03:58:48.924Z - info: Using extension express@4.0.1
+2026-04-24T03:58:49.081Z - info: Using extension freeze@4.0.0
+2026-04-24T03:58:49.081Z - info: Using extension fs-store@4.0.1
+2026-04-24T03:58:49.153Z - info: Using extension handlebars@4.0.1
+2026-04-24T03:58:49.154Z - info: Using extension import-export@4.0.2
+2026-04-24T03:58:49.159Z - info: Using extension jsrender@4.0.0
+2026-04-24T03:58:49.159Z - info: Using extension licensing@4.0.1
+2026-04-24T03:58:49.172Z - info: Using extension localization@4.0.1
+2026-04-24T03:58:49.173Z - info: Using extension npm@4.0.0
+2026-04-24T03:58:49.174Z - info: Using extension pdf-utils@4.0.2
+2026-04-24T03:58:49.175Z - info: Using extension reports@4.0.0
+2026-04-24T03:58:49.176Z - info: Using extension tags@4.0.1
+2026-04-24T03:58:49.177Z - info: Using extension text@4.0.0
+2026-04-24T03:58:49.178Z - info: Using extension version-control@4.0.0
+2026-04-24T03:58:49.186Z - info: Using extension assets@4.0.2
+2026-04-24T03:58:49.191Z - info: Using extension authorization@4.0.0
+2026-04-24T03:58:49.194Z - info: Using extension browser-client@4.0.0
+2026-04-24T03:58:49.195Z - info: Using extension chrome-pdf@4.0.0
+2026-04-24T03:58:49.197Z - info: Using extension docx@4.1.1
+2026-04-24T03:58:49.198Z - info: Using extension html-to-xlsx@4.0.1
+2026-04-24T03:58:49.364Z - info: html-to-xlsx detected chrome as available html engine
+2026-04-24T03:58:49.364Z - info: Using extension pptx@4.1.0
+2026-04-24T03:58:49.365Z - info: Using extension scheduling@4.0.0
+2026-04-24T03:58:49.381Z - info: Using extension scripts@4.0.0
+2026-04-24T03:58:49.382Z - info: Using extension static-pdf@4.0.0
+2026-04-24T03:58:49.383Z - info: Using extension studio@4.0.2
+2026-04-24T03:58:49.450Z - info: Using extension xlsx@4.0.2
+2026-04-24T03:58:49.451Z - info: Using extension public-templates@4.0.0
+2026-04-24T03:58:49.452Z - info: Using extension sample-template@4.0.0
+2026-04-24T03:58:49.452Z - info: Using extension studio-theme-dark@4.0.0
+2026-04-24T03:58:49.453Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-04-24T03:58:49.453Z - info: Using fs provider for template store.
+2026-04-24T03:58:49.456Z - info: fs store is persisting using fs for /Users/luchtithvichea/Desktop/Testing/POS/report-v3/data
+2026-04-24T03:58:49.458Z - info: fs store is loading data
+2026-04-24T03:58:49.469Z - info: fs store is initialized successfully
+2026-04-24T03:58:49.476Z - info: Creating default express app.
+2026-04-24T03:58:49.491Z - info: jsreport server successfully started on http port: 5488
+2026-04-24T03:58:49.491Z - info: Verifying license key free
+2026-04-24T03:58:49.492Z - info: Using free license
+2026-04-24T03:58:49.494Z - info: Initializing worker threads
+2026-04-24T03:58:49.836Z - info: 2 worker threads initialized in 342ms
+2026-04-24T03:58:49.836Z - info: Starting temp files cleanup with 180000ms threshold
+2026-04-24T03:58:49.837Z - info: reporter initialized
+2026-04-24T03:59:25.343Z - info: Render request 1 queued for execution and waiting for available worker rootId=4h397bekeygybhy, id=4h397bekeygybhy
+2026-04-24T03:59:25.375Z - info: Starting rendering request 1 (user: admin) rootId=4h397bekeygybhy, id=4h397bekeygybhy
+2026-04-24T03:59:25.375Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=4h397bekeygybhy, id=4h397bekeygybhy
+2026-04-24T03:59:31.699Z - info: Rendering request 1 finished in 6357 ms rootId=4h397bekeygybhy, id=4h397bekeygybhy
+2026-04-24T04:00:52.579Z - info: Render request 2 queued for execution and waiting for available worker rootId=6szk29f5ib0aqu1, id=6szk29f5ib0aqu1
+2026-04-24T04:00:52.606Z - info: Starting rendering request 2 (user: admin) rootId=6szk29f5ib0aqu1, id=6szk29f5ib0aqu1
+2026-04-24T04:00:52.606Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=6szk29f5ib0aqu1, id=6szk29f5ib0aqu1
+2026-04-24T04:00:55.356Z - info: Rendering request 2 finished in 2778 ms rootId=6szk29f5ib0aqu1, id=6szk29f5ib0aqu1

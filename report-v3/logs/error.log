@@ -1,0 +1,101 @@
+2026-04-11T14:18:23.231Z - error: Error occurred during reporter init: TypeError: Accessor not expected at intrinsics.%IteratorPrototype%.constructor
+  at isAllowedProperty (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4029:13)
+  at visitProperties (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4076:26)
+  at isAllowedPropertyValue (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:3963:7)
+  at isAllowedProperty (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4026:14)
+  at visitProperties (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4076:26)
+  at whitelistIntrinsics (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4119:3)
+  at repairIntrinsics (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:9808:3)
+  at globalThis.lockdown (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:9897:28)
+  at WorkerReporter.init (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:88:7)
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17)
+2026-04-11T14:24:42.195Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:16:10)
+    at /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:50:14
+    at Object.start (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:125:13)
+    at Object.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:333:30)
+    at async ListenerCollection.fire (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+2026-04-11T14:51:21.863Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:16:10)
+    at /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:50:14
+    at Object.start (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:125:13)
+    at Object.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:333:30)
+    at async ListenerCollection.fire (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+2026-04-11T14:53:51.567Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:16:10)
+    at /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:50:14
+    at Object.start (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:125:13)
+    at Object.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:333:30)
+    at async ListenerCollection.fire (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+2026-04-11T14:54:26.521Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:16:10)
+    at /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:50:14
+    at Object.start (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:125:13)
+    at Object.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:333:30)
+    at async ListenerCollection.fire (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+2026-04-11T15:02:35.998Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:16:10)
+    at /Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:50:14
+    at Object.start (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:125:13)
+    at Object.<anonymous> (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-express/lib/main.js:333:30)
+    at async ListenerCollection.fire (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+2026-04-11T15:06:04.053Z - error: Error when processing render request 4
+(because) user code threw with non-Error: {} rootId=jdwm8vuyz1dhl1r, id=jdwm8vuyz1dhl1r
+2026-04-11T15:06:04.053Z - error: Rendering request 4 finished with error in 3099 ms rootId=jdwm8vuyz1dhl1r, id=jdwm8vuyz1dhl1r
+2026-04-11T15:06:04.054Z - error: Error during processing request at http://localhost:5488/api/report
+2026-04-11T15:09:37.065Z - error: Error when processing render request 1
+(because) user code threw with non-Error: {} rootId=sutrp1r2sg9zk8z, id=sutrp1r2sg9zk8z
+2026-04-11T15:09:37.065Z - error: Rendering request 1 finished with error in 1170 ms rootId=sutrp1r2sg9zk8z, id=sutrp1r2sg9zk8z
+2026-04-11T15:09:37.067Z - error: Error during processing request at http://localhost:5488/api/report
+2026-04-11T15:12:37.648Z - error: Error when processing render request 1
+(because) user code threw with non-Error: {} rootId=pvv2erm8f3wqdu8, id=pvv2erm8f3wqdu8
+2026-04-11T15:12:37.649Z - error: Rendering request 1 finished with error in 1104 ms rootId=pvv2erm8f3wqdu8, id=pvv2erm8f3wqdu8
+2026-04-11T15:12:37.650Z - error: Error during processing request at http://localhost:5488/api/report
+2026-04-11T15:15:11.541Z - error: Error when processing render request 1
+(because) user code threw with non-Error: {} rootId=ep4kaiilx4daa46, id=ep4kaiilx4daa46
+2026-04-11T15:15:11.542Z - error: Rendering request 1 finished with error in 1306 ms rootId=ep4kaiilx4daa46, id=ep4kaiilx4daa46
+2026-04-11T15:15:11.544Z - error: Error during processing request at http://localhost:5488/api/report
+2026-04-11T15:15:49.062Z - error: Error when processing render request 1
+(because) user code threw with non-Error: {} rootId=mvsqz8tqgumvsev, id=mvsqz8tqgumvsev
+2026-04-11T15:15:49.063Z - error: Rendering request 1 finished with error in 1037 ms rootId=mvsqz8tqgumvsev, id=mvsqz8tqgumvsev
+2026-04-11T15:15:49.065Z - error: Error during processing request at http://localhost:5488/api/report
+2026-04-12T07:47:21.422Z - error: Error when processing render request 1
+(because) user code threw with non-Error: {} rootId=pybrunouiwo1hrr, id=pybrunouiwo1hrr
+2026-04-12T07:47:21.422Z - error: Rendering request 1 finished with error in 2337 ms rootId=pybrunouiwo1hrr, id=pybrunouiwo1hrr
+2026-04-12T07:47:21.424Z - error: Error during processing request at http://localhost:5488/api/report
+2026-04-24T03:37:02.243Z - error: Error occurred during reporter init: TypeError: Accessor not expected at intrinsics.%IteratorPrototype%.constructor
+  at isAllowedProperty (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4029:13)
+  at visitProperties (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4076:26)
+  at isAllowedPropertyValue (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:3963:7)
+  at isAllowedProperty (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4026:14)
+  at visitProperties (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4076:26)
+  at whitelistIntrinsics (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:4119:3)
+  at repairIntrinsics (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:9808:3)
+  at globalThis.lockdown (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/ses/index.js:9897:28)
+  at WorkerReporter.init (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:88:7)
+  at async processAndResponse (/Users/luchtithvichea/Desktop/Testing/POS/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17)

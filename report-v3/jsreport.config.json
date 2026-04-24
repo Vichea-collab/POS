@@ -1,0 +1,54 @@
+{
+  "httpPort": 5488,
+  "store": {
+    "provider": "fs"
+  },
+  "blobStorage": {
+    "provider": "fs"
+  },
+  "logger": {
+    "console": {
+      "transport": "console",
+      "level": "debug"
+    },
+    "file": {
+      "transport": "file",
+      "level": "info",
+      "filename": "logs/reporter.log"
+    },
+    "error": {
+      "transport": "file",
+      "level": "error",
+      "filename": "logs/error.log"
+    }
+  },
+  "trustUserCode": false,
+  "reportTimeout": 60000,
+  "workers": {
+    "numberOfWorkers": 2
+  },
+  "chrome": {
+    "strategy": "dedicated-process",
+    "launchOptions": {
+      "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+      "headless": "new",
+      "args": [
+        "--disable-dev-shm-usage",
+        "--disable-gpu",
+        "--no-sandbox"
+      ]
+    }
+  },
+  "extensions": {
+    "authentication": {
+      "cookieSession": {
+        "secret": "Y8mIgdfplI0lHMrG"
+      },
+      "admin": {
+        "username": "admin",
+        "password": "CamCyberTeam"
+      },
+      "enabled": true
+    }
+  }
+}

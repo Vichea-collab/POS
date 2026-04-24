@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    position: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Khmer OS Siemreap Regular';
+    color: #1b1b1b;
+}
+
+.content{
+    width: 100%;
+    padding: 2.5rem;
+}
+
+.brand{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: .5rem;
+}
+
+.service{
+    font-size: 1.5rem;
+    color: #0d6a86;
+    font-weight: 700;
+}
+
+.address{
+    font-size: .95rem;
+    color: #5a5a5a;
+    line-height: 1.5;
+    margin-top: .4rem;
+}
+
+.invoice-name{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #0d6a86;
+    font-weight: 700;
+    padding: .75rem 0;
+}
+
+.header .top-header{
+    padding: .5rem 0 1rem;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+
+.header .top-header p{
+    font-size: 1.2rem;
+}
+
+.header .top-header p span{
+    color: blue;
+}
+
+.header .buttom-header{
+    width: 100%;
+    display: flex;
+    padding: 1rem 0;
+    border-bottom: 1px solid gainsboro;
+}
+
+.buttom-header .box{
+    width: 50%;
+}
+
+.buttom-header .right{
+    text-align: right;
+}
+
+.header .buttom-header p{
+    font-size: 1rem;
+}
+
+main{
+    width: 100%;
+    padding: 1rem 0;
+    border-bottom: 1px solid gainsboro;
+}
+
+main .table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    border: 1px solid gainsboro;
+}
+
+.table .table-header td{
+    padding: .5rem;
+    background-color: rgb(110, 146, 245);
+    border-bottom: 1px solid gainsboro;
+    font-weight: 700;
+    text-align: center;
+}
+
+.table .table-body td{
+     padding: .5rem;
+     border-bottom: 1px solid gainsboro;
+     text-align: center;
+}
+
+.table .table-body td:nth-child(2){
+    text-align: left;
+}
+
+.td{
+    text-align: right !important;
+}
+
+.td span{
+    margin-right: 1rem;
+}
+
+.text-green{
+    color: green;
+}
+
+.footer{
+    padding-top: 1rem;
+}
+
+.thank-you{
+    text-align: center;
+}

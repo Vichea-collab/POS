@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: 'Khmer OS Siemreap Regular';
+            src: url({{asset "/invoice-pos/assets/Khmer OS Siemreap Regular.ttf" "dataURI"}});
+            format('ttf');
+        }
+        {{asset "/invoice-pos/assets/invoice-style.css"}}
+    </style>
+</head>
+<body>
+    <div class="content">
+        <header class="header">
+            <div class="brand">
+                <p class="service">{{title_of_service}}</p>
+                <p class="address">
+                    Street 59B (H.E. Chea Sophara Street Phnom Penh, Sangkat Chrang Chamhres 2,<br>
+                    Khan Russey Keo, 12000), Cambodia
+                </p>
+            </div>
+            <div class="invoice-name">Invoice</div>
+            <div class="top-header">
+                <p>លេខវិក្ក័យប័ត្រ <span>#{{receipt_number}}</span></p>
+            </div>
+            <div class="buttom-header">
+                <div class="box">
+                    <p>បង្កើតនៅៈ {{formatDate ordered_at}}</p>
+                </div>
+                <div class="box right">
+                    <p>អ្នកគិតលុយៈ {{cashier.name}}</p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <table class="table">
+                <tr class="table-header">
+                    <td>ល.រ</td>
+                    <td>ផលិតផល</td>
+                    <td>តម្លៃ (រៀល)</td>
+                    <td>ចំនួន</td>
+                    <td>សរុប</td>
+                </tr>
+                <tbody class="table-body">
+                    {{#each details}}
+                    <tr class="item">
+                        <td>{{addOne @index}}</td>
+                        <td>{{product.name}}</td>
+                        <td>{{riel unit_price}}</td>
+                        <td>{{qty}}</td>
+                        <td>{{subtotal unit_price qty}}</td>
+                    </tr>
+                    {{/each}}
+                    <tr>
+                        <td colspan="4" class="td"><span>តម្លៃសរុប (រៀល):</span></td>
+                        <td><span class="text-green">{{riel total_price}}</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer class="footer">
+            <div class="thank-you">Thank you for coming. See you again!</div>
+        </footer>
+    </div>
+</body>
+</html>
