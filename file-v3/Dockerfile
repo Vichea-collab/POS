@@ -1,12 +1,21 @@
-FROM sovichea10/file-node:16-slim
+FROM node:20-alpine AS build
 
-ARG PORT=8080
 WORKDIR /app
 COPY package*.json ./
-RUN npm install
-# RUN npm install -g node-gyp && npm install --save-dev node-gyp
-# RUN npm install --save node-poppler
+RUN npm ci
 COPY . .
-RUN cp .env.example .env
-EXPOSE ${PORT}
-CMD ["npm", "run", "start:dev"]
+RUN npm run build && cp -R src/view dist/view && npm prune --omit=dev
+
+FROM node:20-alpine
+
+ENV NODE_ENV=production
+ENV PORT=8080
+WORKDIR /app
+
+COPY --from=build /app/node_modules ./node_modules
+COPY --from=build /app/dist ./dist
+COPY --from=build /app/public ./public
+COPY package*.json ./
+
+EXPOSE 8080
+CMD ["npm", "run", "start:prod"]

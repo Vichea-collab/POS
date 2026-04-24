@@ -6,8 +6,8 @@
     "description": "One Stop Service File",
     "scripts": {
         "start:dev": "nodemon",
-        "start:prod": "ts-node ./src/main.ts",
-        "preview": "ts-node dist/main.js",
+        "start:prod": "node ./dist/main.js",
+        "preview": "node ./dist/main.js",
         "build": "tsc",
         "migrate": "ts-node src/database/file.migrate.ts"
     },

@@ -1,0 +1,131 @@
+services:
+  - type: web
+    name: pos-api-v4
+    runtime: node
+    rootDir: api-v4
+    region: singapore
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start:prod
+    autoDeployTrigger: commit
+    domains:
+      - api.luchtithvichea.com
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: DB_CONNECTION
+        value: postgres
+      - key: DB_HOST
+        fromDatabase:
+          name: pos-postgres
+          property: host
+      - key: DB_PORT
+        fromDatabase:
+          name: pos-postgres
+          property: port
+      - key: DB_DATABASE
+        fromDatabase:
+          name: pos-postgres
+          property: database
+      - key: DB_USERNAME
+        fromDatabase:
+          name: pos-postgres
+          property: user
+      - key: DB_PASSWORD
+        fromDatabase:
+          name: pos-postgres
+          property: password
+      - key: DB_TIMEZONE
+        value: Asia/Phnom_Penh
+      - key: FILE_BASE_URL
+        value: https://pos-file-v3.onrender.com
+      - key: FILE_USERNAME
+        value: pos-file
+      - key: FILE_PASSWORD
+        generateValue: true
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JS_BASE_URL
+        value: https://pos-report-v3.onrender.com
+      - key: JS_USERNAME
+        value: admin
+      - key: JS_PASSWORD
+        value: CamCyberTeam
+      - key: JS_TEMPLATE
+        value: invoice-main
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_CHAT_ID
+        sync: false
+      - key: SMTP_HOST
+        sync: false
+      - key: SMTP_PORT
+        value: 587
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASS
+        sync: false
+      - key: TWILIO_ACCOUNT_SID
+        sync: false
+      - key: TWILIO_AUTH_TOKEN
+        sync: false
+      - key: TWILIO_PHONE_NUMBER
+        sync: false
+
+  - type: web
+    name: pos-file-v3
+    runtime: node
+    rootDir: file-v3
+    region: singapore
+    plan: free
+    buildCommand: npm ci && npm run build && cp -R src/view dist/view
+    startCommand: npm run start:prod
+    autoDeployTrigger: commit
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: DB_CONNECTION
+        value: postgres
+      - key: DB_HOST
+        fromDatabase:
+          name: pos-postgres
+          property: host
+      - key: DB_PORT
+        fromDatabase:
+          name: pos-postgres
+          property: port
+      - key: DB_DATABASE
+        fromDatabase:
+          name: pos-postgres
+          property: database
+      - key: DB_USERNAME
+        fromDatabase:
+          name: pos-postgres
+          property: user
+      - key: DB_PASSWORD
+        fromDatabase:
+          name: pos-postgres
+          property: password
+
+  - type: web
+    name: pos-report-v3
+    runtime: docker
+    rootDir: report-v3
+    region: singapore
+    plan: free
+    autoDeployTrigger: commit
+    envVars:
+      - key: PORT
+        value: 5488
+
+databases:
+  - name: pos-postgres
+    databaseName: pos
+    user: pos_user
+    region: singapore
+    plan: free
+    ipAllowList: []

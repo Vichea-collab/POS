@@ -1,10 +1,22 @@
-FROM node:18.15-alpine
+FROM node:20-alpine AS build
 
-WORKDIR /myapp
+WORKDIR /app
 COPY package*.json ./
-COPY tsconfig.json ./
-RUN npm install
+RUN npm ci
 COPY . .
-# RUN npm run build
-CMD npm run start:dev
+RUN npm run build && npm prune --omit=dev
 
+FROM node:20-alpine
+
+ENV NODE_ENV=production
+ENV PORT=3000
+WORKDIR /app
+
+COPY --from=build /app/node_modules ./node_modules
+COPY --from=build /app/dist ./dist
+COPY --from=build /app/src ./src
+COPY --from=build /app/public ./public
+COPY package*.json ./
+
+EXPOSE 3000
+CMD ["node", "dist/main.js"]
