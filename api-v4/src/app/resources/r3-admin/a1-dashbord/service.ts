@@ -274,8 +274,8 @@ export class DashboardService {
     async findCashierAndTotalSale(filters: { today?: string; yesterday?: string; thisWeek?: string; thisMonth?: string } = {}) {
         try {
             const { currentPeriodFilter, previousPeriodFilter } = this.getDateFilters(filters);
-            const orderTable = '`order`';
-            const userAlias = '`User`';
+            const orderTable = '"order"';
+            const userAlias = '"User"';
 
             const cashiers = await User.findAll({
                 attributes: [
@@ -323,7 +323,7 @@ export class DashboardService {
                         include: [{ model: Role, attributes: ['id', 'name'] }],
                     },
                 ],
-                order: [[Sequelize.literal('totalAmount'), 'DESC']],
+                order: [[Sequelize.literal('"totalAmount"'), 'DESC']],
             });
 
             return { data: cashiers };
@@ -397,7 +397,7 @@ export class DashboardService {
                     [Sequelize.literal(`(
                         SELECT COUNT(*)
                         FROM product AS p
-                        WHERE p.type_id = \`ProductType\`.id
+                        WHERE p.type_id = "ProductType".id
                         ${dateCondition}
                     )`), 'productCount'],
                 ],

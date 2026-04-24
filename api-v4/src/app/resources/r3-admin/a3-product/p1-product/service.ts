@@ -147,7 +147,7 @@ export class ProductService {
             literal(`(
                         SELECT SUM(qty)
                         FROM order_details AS od
-                        WHERE od.product_id = \`Product\`.id
+                        WHERE od.product_id = "Product".id
                     )`),
             "total_sale",
           ],
@@ -286,7 +286,7 @@ export class ProductService {
           "created_at",
           [
             literal(
-              `(SELECT COUNT(*) FROM order_details AS od WHERE od.product_id = \`Product\`.id )`
+              `(SELECT COUNT(*) FROM order_details AS od WHERE od.product_id = "Product".id )`
             ),
             "total_sale",
           ],
@@ -402,7 +402,7 @@ export class ProductService {
           "created_at",
           [
             literal(
-              `(SELECT COUNT(*) FROM order_details AS od WHERE od.product_id = \`Product\`.id )`
+              `(SELECT COUNT(*) FROM order_details AS od WHERE od.product_id = "Product".id )`
             ),
             "total_sale",
           ],

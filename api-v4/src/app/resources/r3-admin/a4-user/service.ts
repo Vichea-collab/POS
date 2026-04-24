@@ -30,8 +30,8 @@ import { Create, List, Update } from "./interface";
 export class UserService {
   constructor(private readonly fileService: FileService) {}
 
-  private readonly orderTable = "`order`";
-  private readonly userAlias = "`User`";
+  private readonly orderTable = '"order"';
+  private readonly userAlias = '"User"';
 
   async setup(): Promise<{ roles: { id: number; name: string }[] }> {
     const roles = await Role.findAll({
