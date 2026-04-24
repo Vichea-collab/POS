@@ -10,6 +10,7 @@ import { HttpErrorResponse }    from '@angular/common/http';
 import { SnackbarService }      from 'helper/services/snack-bar/snack-bar.service';
 import GlobalConstants          from 'helper/shared/constants';
 import { Data, Detail }         from 'app/resources/r2-cashier/c2-sale/interface';
+import { env }                  from 'envs/env';
 @Component({
     selector: 'shared-details',
     standalone: true,
@@ -26,6 +27,7 @@ import { Data, Detail }         from 'app/resources/r2-cashier/c2-sale/interface
 export class SharedDetailsComponent implements OnInit {
     displayedColumns: string[] = ['product', 'price', 'qty', 'total'];
     dataSource: MatTableDataSource<Detail> = new MatTableDataSource<Detail>([]);
+    fileUrl: string = env.FILE_BASE_URL || '';
 
 
     constructor(
@@ -38,6 +40,18 @@ export class SharedDetailsComponent implements OnInit {
     // ===> onInit method to initialize the component
     ngOnInit(): void {
         this.dataSource.data = this.data.details;
+    }
+
+    imageUrl(path?: string): string {
+        if (!path) {
+            return '';
+        }
+
+        if (/^https?:\/\//i.test(path)) {
+            return path;
+        }
+
+        return `${this.fileUrl.replace(/\/+$/, '')}/${path.replace(/^\/+/, '')}`;
     }
 
 

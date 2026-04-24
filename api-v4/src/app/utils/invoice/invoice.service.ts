@@ -11,9 +11,25 @@ import User from '@app/models/user/user.model';
 @Injectable()
 export class InvoiceService {
     constructor(private jsReportService: JsReportService) { }
+    private readonly fileBaseUrl = process.env.FILE_BASE_URL || '';
 
     private getInvoiceTemplate(): string {
         return process.env.JS_TEMPLATE || 'invoice-main';
+    }
+
+    private getFileUrl(path?: string): string {
+        if (!path) {
+            return '';
+        }
+
+        if (/^https?:\/\//i.test(path)) {
+            return path;
+        }
+
+        const baseUrl = this.fileBaseUrl.replace(/\/+$/, '');
+        const imagePath = path.replace(/^\/+/, '');
+
+        return baseUrl ? `${baseUrl}/${imagePath}` : imagePath;
     }
 
     // Method to generate an invoice report
@@ -80,11 +96,21 @@ export class InvoiceService {
         });
 
         // Structuring the data for the report
-        const data = orders[0].toJSON();
+        const data: any = orders[0].toJSON();
+        data.details = (data.details || []).map((detail) => ({
+            ...detail,
+            product: detail.product
+                ? {
+                    ...detail.product,
+                    image_url: this.getFileUrl(detail.product.image),
+                }
+                : detail.product,
+        }));
 
         const dataWithServiceTitle = {
             ...data,
             title_of_service: 'CamCyber POS',
+            file_base_url: this.fileBaseUrl,
         };
         return dataWithServiceTitle;
     }

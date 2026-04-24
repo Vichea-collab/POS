@@ -17,6 +17,7 @@
     <div class="content">
         <header class="header">
             <div class="brand">
+                <img class="logo" src="{{asset "/invoice-pos/assets/pos-logo.png" "dataURI"}}" alt="POS logo" />
                 <p class="service">{{title_of_service}}</p>
                 <p class="address">
                     Street 59B (H.E. Chea Sophara Street Phnom Penh, Sangkat Chrang Chamhres 2,<br>
@@ -40,6 +41,7 @@
             <table class="table">
                 <tr class="table-header">
                     <td>ល.រ</td>
+                    <td>រូបភាព</td>
                     <td>ផលិតផល</td>
                     <td>តម្លៃ (រៀល)</td>
                     <td>ចំនួន</td>
@@ -49,6 +51,11 @@
                     {{#each details}}
                     <tr class="item">
                         <td>{{addOne @index}}</td>
+                        <td>
+                            {{#if product.image_url}}
+                            <img class="product-image" src="{{product.image_url}}" alt="{{product.name}}" />
+                            {{/if}}
+                        </td>
                         <td>{{product.name}}</td>
                         <td>{{riel unit_price}}</td>
                         <td>{{qty}}</td>
@@ -56,7 +63,7 @@
                     </tr>
                     {{/each}}
                     <tr>
-                        <td colspan="4" class="td"><span>តម្លៃសរុប (រៀល):</span></td>
+                        <td colspan="5" class="td"><span>តម្លៃសរុប (រៀល):</span></td>
                         <td><span class="text-green">{{riel total_price}}</span></td>
                     </tr>
                 </tbody>
