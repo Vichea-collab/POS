@@ -49,7 +49,7 @@ export class InvoiceService {
         // Retrieving orders related to the specified receipt number
         const orders = await Order.findAll({
             where: {
-                receipt_number: receiptNumber,
+                receipt_number: String(receiptNumber),
             },
             include: [
                 {
