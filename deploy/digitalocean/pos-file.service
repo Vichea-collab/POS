@@ -1,14 +1,16 @@
 [Unit]
-Description=POS File Service
+Description=POS File v3
 After=network.target mysql.service
+Wants=mysql.service
 
 [Service]
 Type=simple
-User=root
 WorkingDirectory=/opt/pos/file-v3
-EnvironmentFile=/opt/pos/.env.production
-ExecStart=/usr/bin/node dist/main.js
+Environment=NODE_ENV=production
+Environment=PATH=/opt/node22/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ExecStart=/opt/node22/bin/node dist/main.js
 Restart=always
+RestartSec=5
 
 [Install]
 WantedBy=multi-user.target

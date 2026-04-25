@@ -1,13 +1,15 @@
 [Unit]
-Description=POS Report Service
+Description=POS Report v3 jsreport
 After=network.target
 
 [Service]
 Type=simple
-User=root
 WorkingDirectory=/opt/pos/report-v3
-ExecStart=/usr/bin/node server.js
+Environment=NODE_ENV=production
+Environment=PATH=/opt/node22/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ExecStart=/opt/node22/bin/node server.js
 Restart=always
+RestartSec=8
 
 [Install]
 WantedBy=multi-user.target

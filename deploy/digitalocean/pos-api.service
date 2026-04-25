@@ -1,14 +1,16 @@
 [Unit]
-Description=POS API Service
-After=network.target mysql.service
+Description=POS API v4
+After=network.target mysql.service pos-file.service pos-report.service
+Wants=mysql.service pos-file.service pos-report.service
 
 [Service]
 Type=simple
-User=root
 WorkingDirectory=/opt/pos/api-v4
-EnvironmentFile=/opt/pos/.env.production
-ExecStart=/usr/bin/node dist/main
+Environment=NODE_ENV=production
+Environment=PATH=/opt/node22/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ExecStart=/opt/node22/bin/node dist/main.js
 Restart=always
+RestartSec=5
 
 [Install]
 WantedBy=multi-user.target

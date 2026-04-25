@@ -30,6 +30,16 @@ FILE_BASE_URL=https://file.luchtithvichea.com/
 SOCKET_URL=https://api.luchtithvichea.com
 ```
 
+The live frontend must be rebuilt after these values change. From `web-v4`:
+
+```bash
+npm run build
+npx wrangler login
+npx wrangler pages deploy dist --project-name <cloudflare-pages-project-name>
+```
+
+If deploying from the Cloudflare dashboard instead, set the same environment variables in the Pages project and trigger a new production deployment. The old build will keep calling `localhost` until it is redeployed.
+
 Live server layout:
 
 ```text
