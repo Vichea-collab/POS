@@ -23,6 +23,13 @@ export type Orders = Fn | Col | Literal | OrderItem[];
 export class ProductService {
   constructor(private readonly fileService: FileService) {}
 
+  private quoteIdentifier(identifier: string): string {
+    const quote = (process.env.DB_CONNECTION || "").toLowerCase().includes("postgres")
+      ? '"'
+      : "`";
+    return `${quote}${identifier}${quote}`;
+  }
+
   // Method to retrieve the setup data for product types
   async getSetupData(): Promise<any> {
     // Fetch product types
@@ -118,6 +125,7 @@ export class ProductService {
         : "DESC";
 
       const sort: Orders = [];
+      const productAlias = this.quoteIdentifier("Product");
 
       switch (sortField) {
         case "name":
@@ -147,7 +155,7 @@ export class ProductService {
             literal(`(
                         SELECT SUM(qty)
                         FROM order_details AS od
-                        WHERE od.product_id = "Product".id
+                        WHERE od.product_id = ${productAlias}.id
                     )`),
             "total_sale",
           ],
@@ -268,6 +276,7 @@ export class ProductService {
 
       // Replace base64 string by file URI from FileService
       body.image = result.data.uri;
+      const productAlias = this.quoteIdentifier("Product");
 
       //   console.log("Before product creation", body);
       const product = await Product.create({
@@ -286,7 +295,7 @@ export class ProductService {
           "created_at",
           [
             literal(
-              `(SELECT COUNT(*) FROM order_details AS od WHERE od.product_id = "Product".id )`
+              `(SELECT COUNT(*) FROM order_details AS od WHERE od.product_id = ${productAlias}.id )`
             ),
             "total_sale",
           ],
@@ -392,6 +401,7 @@ export class ProductService {
 
       // Retrieve updated product
     //   console.log("Fetching updated product");
+      const productAlias = this.quoteIdentifier("Product");
       const data = await Product.findByPk(id, {
         attributes: [
           "id",
@@ -402,7 +412,7 @@ export class ProductService {
           "created_at",
           [
             literal(
-              `(SELECT COUNT(*) FROM order_details AS od WHERE od.product_id = "Product".id )`
+              `(SELECT COUNT(*) FROM order_details AS od WHERE od.product_id = ${productAlias}.id )`
             ),
             "total_sale",
           ],

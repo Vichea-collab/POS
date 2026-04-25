@@ -30,8 +30,20 @@ import { Create, List, Update } from "./interface";
 export class UserService {
   constructor(private readonly fileService: FileService) {}
 
-  private readonly orderTable = '"order"';
-  private readonly userAlias = '"User"';
+  private quoteIdentifier(identifier: string): string {
+    const quote = (process.env.DB_CONNECTION || "").toLowerCase().includes("postgres")
+      ? '"'
+      : "`";
+    return `${quote}${identifier}${quote}`;
+  }
+
+  private get orderTable(): string {
+    return this.quoteIdentifier("order");
+  }
+
+  private get userAlias(): string {
+    return this.quoteIdentifier("User");
+  }
 
   async setup(): Promise<{ roles: { id: number; name: string }[] }> {
     const roles = await Role.findAll({

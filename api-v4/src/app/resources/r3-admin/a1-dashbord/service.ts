@@ -19,6 +19,11 @@ export class DashboardService {
 
     constructor(private jsReportService: JsReportService) { }
 
+    private quoteIdentifier(identifier: string): string {
+        const quote = (process.env.DB_CONNECTION || '').toLowerCase().includes('postgres') ? '"' : '`';
+        return `${quote}${identifier}${quote}`;
+    }
+
     // async findStaticData(filters: { today?: string; yesterday?: string; thisWeek?: string; thisMonth?: string } = {}): Promise<any> {
     //     try {
 
@@ -274,8 +279,9 @@ export class DashboardService {
     async findCashierAndTotalSale(filters: { today?: string; yesterday?: string; thisWeek?: string; thisMonth?: string } = {}) {
         try {
             const { currentPeriodFilter, previousPeriodFilter } = this.getDateFilters(filters);
-            const orderTable = '"order"';
-            const userAlias = '"User"';
+            const orderTable = this.quoteIdentifier('order');
+            const userAlias = this.quoteIdentifier('User');
+            const totalAmountAlias = this.quoteIdentifier('totalAmount');
 
             const cashiers = await User.findAll({
                 attributes: [
@@ -323,7 +329,7 @@ export class DashboardService {
                         include: [{ model: Role, attributes: ['id', 'name'] }],
                     },
                 ],
-                order: [[Sequelize.literal('"totalAmount"'), 'DESC']],
+                order: [[Sequelize.literal(totalAmountAlias), 'DESC']],
             });
 
             return { data: cashiers };
@@ -389,6 +395,7 @@ export class DashboardService {
 
             // Construct the SQL date condition
             const dateCondition = `AND p.created_at BETWEEN '${startDate.toISOString()}' AND '${endDate.toISOString()}'`;
+            const productTypeAlias = this.quoteIdentifier('ProductType');
 
             const productTypesWithProductCounts = await ProductType.findAll({
                 attributes: [
@@ -397,7 +404,7 @@ export class DashboardService {
                     [Sequelize.literal(`(
                         SELECT COUNT(*)
                         FROM product AS p
-                        WHERE p.type_id = "ProductType".id
+                        WHERE p.type_id = ${productTypeAlias}.id
                         ${dateCondition}
                     )`), 'productCount'],
                 ],

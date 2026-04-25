@@ -1,0 +1,11 @@
+api.luchtithvichea.com {
+  reverse_proxy api:3000
+}
+
+file.luchtithvichea.com {
+  reverse_proxy file:8080
+}
+
+report.luchtithvichea.com {
+  reverse_proxy report:5488
+}
