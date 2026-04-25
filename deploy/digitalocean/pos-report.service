@@ -1,0 +1,13 @@
+[Unit]
+Description=POS Report Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/pos/report-v3
+ExecStart=/usr/bin/node server.js
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,14 @@
+[Unit]
+Description=POS API Service
+After=network.target mysql.service
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/pos/api-v4
+EnvironmentFile=/opt/pos/.env.production
+ExecStart=/usr/bin/node dist/main
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
