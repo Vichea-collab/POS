@@ -40,6 +40,13 @@ npx wrangler pages deploy dist --project-name <cloudflare-pages-project-name>
 
 If deploying from the Cloudflare dashboard instead, set the same environment variables in the Pages project and trigger a new production deployment. The old build will keep calling `localhost` until it is redeployed.
 
+Telegram order notifications are sent by `api-v4` when a cashier creates an order. Configure these values in `/opt/pos/api-v4/.env` and restart `pos-api`:
+
+```env
+TELEGRAM_BOT_TOKEN=<bot-token-from-BotFather>
+TELEGRAM_CHAT_ID=<group-or-channel-chat-id>
+```
+
 Live server layout:
 
 ```text
